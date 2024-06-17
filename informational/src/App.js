@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Landing from "./Landing-page";
+import "./index.css"
+
+
+export const Navbar = () => {
+  return(
+      <nav className = "navbar">
+          <div className='navbar-logo' >
+              <img src="/Images/logo.png"></img>
+          </div>
+          <div className='links'>
+              <ul className='links'>
+                  <li><a href=''>Home</a></li>
+                  <li><a href=''>About us</a></li>
+                  <li><a href=''>Our services</a></li>
+                  <li><a href=''>Team</a></li>
+                  <li><a href=''>Contacts</a></li>
+              </ul>
+          </div>
+      </nav>
+
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Navbar/>
+      <Landing/>
     </div>
   );
 }

@@ -1,0 +1,687 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10 px 20px;
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+.navbar-logo img{
+    height: 50px;
+    width: 50px;
+}
+.links{
+    gap: 50px;
+    display: flex;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.landing{
+    background-image: url("/home/studen/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 1800px;
+    margin-left: 23px;
+}
+.overlay{
+    background-color: rgba(255,255,255,0.5);
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    width: 1000px;
+    height: 400px;
+}
+.overlay h1{
+    margin: 0 0 10px;
+    font-size: 80px;
+}
+.overlay p{
+    margin: 0 0 20px;
+    font-size: 30px;
+}
+.buttons{
+    display: flex;
+    gap: 30px;
+    margin-left: 30%;
+}
+.sign-in-button{
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+    border: solid #090958 3px;
+    font-weight: bold;
+    color: #090958;
+}
+.sign-in-button:hover{
+    background-color: lightblue;
+}
+.sign-up-button{
+    background-color: #090958;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sign-up-button:hover{
+    background-color: lightblue;
+}
+@media screen and (min-width: 280px) and (max-width:480px){
+    .navbar{
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px;
+        background-color: white;
+        color: black;
+        padding-left: 1px;
+        padding-right: 1px;
+    
+    }
+    .navbar-logo{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+    }
+    .navbar-logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .links{
+        gap: 5px;
+        display: flex;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .landing{
+        background-image: url("/home/studen/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border: 1px solid;
+        border-radius: 20px;
+        width: 250px;
+        margin-left: 23px;
+    }
+    .overlay{
+        background-color: rgba(255,255,255,0.5);
+        margin: auto;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        border-radius: 8px;
+        width: 200px;
+        height: 250px;
+    }
+    .overlay h1{
+        margin: 0 0 10px;
+        font-size: 30px;
+    }
+    .overlay p{
+        margin: 0 0 20px;
+        font-size: 10px;
+    }
+    .buttons{
+        display: flex;
+        gap: 20px;
+        margin-left: 10%;
+    }
+    .sign-in-button{
+        border-radius: 10px;
+        padding: 1px;
+        width: 300px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 12px;
+        border: solid #090958 1px;
+        font-weight: bold;
+        color: #090958;
+    }
+    .sign-in-button:hover{
+        background-color: lightblue;
+    }
+    .sign-up-button{
+        background-color: #090958;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 1px;
+        width: 300px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .sign-up-button:hover{
+        background-color: lightblue;
+    }  
+}
+@media screen and (min-width: 300px) and (max-width:480px){
+    .navbar{
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px;
+        background-color: white;
+        color: black;
+        padding-left: 1px;
+        padding-right: 1px;
+    
+    }
+    .navbar-logo{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+    }
+    .navbar-logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .links{
+        gap: 5px;
+        display: flex;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .landing{
+        background-image: url("/home/studen/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border: 1px solid;
+        border-radius: 20px;
+        width: 350px;
+        margin-left: 12px;
+    }
+    .overlay{
+        background-color: rgba(255,255,255,0.5);
+        margin: auto;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        border-radius: 8px;
+        width: 200px;
+        height: 250px;
+    }
+    .overlay h1{
+        margin: 0 0 10px;
+        font-size: 30px;
+    }
+    .overlay p{
+        margin: 0 0 20px;
+        font-size: 10px;
+    }
+    .buttons{
+        display: flex;
+        gap: 20px;
+        margin-left: 10%;
+    }
+    .sign-in-button{
+        border-radius: 10px;
+        padding: 1px;
+        width: 300px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 12px;
+        border: solid #090958 1px;
+        font-weight: bold;
+        color: #090958;
+    }
+    .sign-in-button:hover{
+        background-color: lightblue;
+    }
+    .sign-up-button{
+        background-color: #090958;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 1px;
+        width: 300px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .sign-up-button:hover{
+        background-color: lightblue;
+    }  
+}
+@media screen and (min-width: 481px) and (max-width:680px){
+    .navbar{
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px;
+        background-color: white;
+        color: black;
+        padding-left: 1px;
+        padding-right: 1px;
+    
+    }
+    .navbar-logo{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+    }
+    .navbar-logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .links{
+        gap: 5px;
+        display: flex;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    .landing{
+        background-image: url("/home/studen/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border: 1px solid;
+        border-radius: 20px;
+        width: 520px;
+        margin-left: 12px;
+    }
+    .overlay{
+        background-color: rgba(255,255,255,0.5);
+        margin: auto;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        border-radius: 8px;
+        width: 400px;
+        height: 250px;
+    }
+    .overlay h1{
+        margin: 0 0 10px;
+        font-size: 30px;
+    }
+    .overlay p{
+        margin: 0 0 20px;
+        font-size: 10px;
+    }
+    .buttons{
+        display: flex;
+        margin-top: 20%;
+        gap: 20px;
+        margin-left: 10%;
+    }
+    .sign-in-button{
+        border-radius: 10px;
+        padding: 1px;
+        width: 300px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 12px;
+        border: solid #090958 1px;
+        font-weight: bold;
+        color: #090958;
+    }
+    .sign-in-button:hover{
+        background-color: lightblue;
+    }
+    .sign-up-button{
+        background-color: #090958;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 1px;
+        width: 300px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .sign-up-button:hover{
+        background-color: lightblue;
+    }  
+}
+@media screen and (min-width: 681px) and (max-width:880px){
+    .navbar{
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px;
+        background-color: white;
+        color: black;
+        padding-left: 1px;
+        padding-right: 1px;
+    
+    }
+    .navbar-logo{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+    }
+    .navbar-logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .links{
+        gap: 20px;
+        display: flex;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+    .landing{
+        background-image: url("/home/studen/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
+        height: 800px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border: 1px solid;
+        border-radius: 20px;
+        width: 750px;
+        margin-left: 12px;
+    }
+    .overlay{
+        background-color: rgba(255,255,255,0.5);
+        margin: auto;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        border-radius: 8px;
+        width: 400px;
+        height: 250px;
+    }
+    .overlay h1{
+        margin: 0 0 10px;
+        font-size: 40px;
+    }
+    .overlay p{
+        margin: 0 0 20px;
+        font-size: 15px;
+    }
+    .buttons{
+        display: flex;
+        gap: 20px;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .sign-in-button{
+        border-radius: 10px;
+        padding: 1px;
+        width: 300px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 12px;
+        border: solid #090958 1px;
+        font-weight: bold;
+        color: #090958;
+    }
+    .sign-in-button:hover{
+        background-color: lightblue;
+    }
+    .sign-up-button{
+        background-color: #090958;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 1px;
+        width: 300px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .sign-up-button:hover{
+        background-color: lightblue;
+    }  
+}
+@media screen and (min-width: 881px) and (max-width:1020px){
+    .navbar{
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px;
+        background-color: white;
+        color: black;
+        padding-left: 1px;
+        padding-right: 1px;
+    
+    }
+    .navbar-logo{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+    }
+    .navbar-logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .links{
+        gap: 20px;
+        display: flex;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+    .landing{
+        background-image: url("/home/studen/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
+        height: 800px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border: 1px solid;
+        border-radius: 20px;
+        width: 900px;
+        margin-left: 12px;
+    }
+    .overlay{
+        background-color: rgba(255,255,255,0.5);
+        margin: auto;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        border-radius: 8px;
+        width: 400px;
+        height: 250px;
+    }
+    .overlay h1{
+        margin: 0 0 10px;
+        font-size: 40px;
+    }
+    .overlay p{
+        margin: 0 0 20px;
+        font-size: 15px;
+    }
+    .buttons{
+        display: flex;
+        gap: 20px;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .sign-in-button{
+        border-radius: 10px;
+        padding: 1px;
+        width: 300px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 12px;
+        border: solid #090958 1px;
+        font-weight: bold;
+        color: #090958;
+    }
+    .sign-in-button:hover{
+        background-color: lightblue;
+    }
+    .sign-up-button{
+        background-color: #090958;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 1px;
+        width: 300px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .sign-up-button:hover{
+        background-color: lightblue;
+    }  
+
+}
+@media screen and (min-width: 1021px) and (max-width:1500px){
+    .navbar{
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px;
+        background-color: white;
+        color: black;
+        padding-left: 1px;
+        padding-right: 1px;
+    
+    }
+    .navbar-logo{
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+    }
+    .navbar-logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .links{
+        gap: 20px;
+        display: flex;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+    .landing{
+        background-image: url("/home/studen/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border: 1px solid;
+        border-radius: 20px;
+        width: 1000px;
+        margin-left: 12px;
+    }
+    .overlay{
+        background-color: rgba(255,255,255,0.5);
+        margin: auto;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        border-radius: 8px;
+        width: 400px;
+        height: 250px;
+    }
+    .overlay h1{
+        margin: 0 0 10px;
+        font-size: 40px;
+    }
+    .overlay p{
+        margin: 0 0 20px;
+        font-size: 18px;
+    }
+    .buttons{
+        display: flex;
+        gap: 20px;
+        margin-left: 10%;
+    }
+    .sign-in-button{
+        border-radius: 10px;
+        padding: 1px;
+        width: 300px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 12px;
+        border: solid #090958 1px;
+        font-weight: bold;
+        color: #090958;
+    }
+    .sign-in-button:hover{
+        background-color: lightblue;
+    }
+    .sign-up-button{
+        background-color: #090958;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 1px;
+        width: 300px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .sign-up-button:hover{
+        background-color: lightblue;
+    }  
+
+
+}
