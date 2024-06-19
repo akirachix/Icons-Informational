@@ -1,11 +1,15 @@
 .team-details{
-    width: 100%;
+    width: 1772px;
+    
+
     
 } 
 h1{
     text-align: center;
     color:black;
     padding-bottom: 2%;
+    font-size: 60px;
+    font-family: 'old standard tt';
 
 }
 
@@ -30,15 +34,10 @@ h1{
 h3{
     color: rgb(9,9,88);
     font-size: 25px;
-    /* padding-left: 2%; */
+    padding-left: 10px;
+    font-family: 'old standard tt';
 }
 
-h4{
-    color:black;
-    font-size: 20px;
-    
-   
-}
 
 
 
@@ -84,14 +83,7 @@ h4{
         padding-left: 4%;
     }
     
-    h4{
-        color:black;
-        font-size: 10px;
-        padding-left: 3%;
 
-        
-       
-    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 680px){
@@ -134,14 +126,7 @@ h4{
         padding-left: 10%;
     }
     
-    h4{
-        color:black;
-        font-size: 10px;
-        padding-left: 10%;
-
-        
-       
-    }
+  
 }
 
 @media screen and (min-width: 681px) and (max-width: 880px){
@@ -185,14 +170,7 @@ h4{
         padding-left: 25%;
     }
     
-    h4{
-        color:black;
-        font-size: 10px;
-        padding-left: 25%;
-
-        
-       
-    } 
+  
     }
 
 
@@ -234,13 +212,7 @@ h4{
         font-size: 25px;
         padding-left: 6%;
     }
-    
-    h4{
-        color:black;
-        font-size: 20px;
-        
-       
-    }
+
 }
 
 @media screen and (min-width: 1081px) and (max-width: 1280px){
@@ -281,12 +253,7 @@ h4{
         padding-left: 6%;
     }
     
-    h4{
-        color:black;
-        font-size: 20px;
-        
-       
-    }
+
     
 }    
   
