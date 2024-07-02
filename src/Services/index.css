@@ -1,75 +1,89 @@
 .container{
     margin-left:200px;
 text-align: center;
+font-family:'old standart tt';
 }
 
 .text{
 display: flex;
 gap: 120px;
 margin-top: 100px;
+padding: 12px;
+
+
 }
 
 .text-container{
     display: flex;
     gap: 120px;
-    margin-top: 150px;
+    margin-top: 100px;
     }
 
 h1{
-text-align: center;
+    text-align: center;
 }
+.text ul{
+ text-align: start;
+ margin: 15px;
 
+
+}
+.text-container ul{
+    margin: 15px;
+    text-align: start;
+
+}
 .text-paths{
     background-color: #090958;
     color: white;
     width: 400px;
-    height: 300px;
-    border-radius: 60px;
+    height: 250px;
+    border-radius: 70px;
     border: solid black 2px;
+    margin-left: 15px;
+
 }
 .text-resource{
     background-color: #090958;
     color: white;
     width: 400px;
-    height: 300px;
-    border-radius: 50px;
+    height: 250px;
+    border-radius: 70px;
     border: solid black 2px;
 }
 .text-development{
     background-color: #090958;
     color: white;
     width: 400px;
-    height: 300px;
-    border-radius: 50px;
+    height: 250px;
+    border-radius: 70px;
     border: solid black 2px;
 }
 .text-community{
     background-color: #090958;
     color: white;
     width: 400px;
-    height: 300px;
-    border-radius: 50px;
+    height: 250px;
+    border-radius: 70px;
     border: solid black 2px;
 }
 .text-progress{
     background-color: #090958;
     color: white;
     width: 400px;
-    height: 300px;
-    border-radius: 50px;
+    height: 250px;
+    border-radius: 70px;
     border: solid black 2px;
 }
 .text-interface{
     background-color: #090958;
     color: white;
     width: 400px;
-    height: 300px;
-    border-radius: 50px;
+    height: 250px;
+    border-radius: 70px;
     border: solid black 2px;
 }
 .photo{
-width: 75px;
-height: 75px;
 background-color: white;
 border-radius: 50%;
 border:  solid #090958 2px;
@@ -77,116 +91,739 @@ object-fit: cover;
 position: relative;
 margin-top: -12%;
 margin-left: -0%;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
 }
 
-@media screen and (min-width:375px) and (max-width:667px) {
+   
+ @media (min-width:200px) and (max-width:300px) {
+    .container{ 
+       margin-left:1%;
+   text-align: center;
+   width: 85%;
+
+   } 
+   
+   .text{
+       flex-direction: column;
+   gap: 50px;
+   margin-top: 50px;
+
+
+   }
+   
+   .text-container{
+       flex-direction: column;
+       gap: 50px;
+       margin-top: 50px;
+       }
+   
+   h1{
+   text-align: center;
+   font-size: medium;
+   }
+   
+   .text-paths{
+    width: 100%;
+    height: 235px;
+    font-size: 12px;
+    margin-right: 15px;
+    border-radius: 50px;
+   }
+   li{
+       font-size: 16px;
+   }
+   .text-resource{
+       width: 110%;
+       height: 235px;
+       font-size: 12px;
+       border-radius: 50px;
+       margin-left: 7px;
+
+   }
+   .text-development{
+       width: 100%;
+       height: 240px;
+       font-size: 12px;
+       margin-left: 7%;
+       border-radius: 50px;
+       
+   }
+   .text-community{
+    width: 110%;
+    height: 230px;
+    font-size: 12px;
+    margin-left: 7px;
+    border-radius: 50px;
+
+   }
+   .text-progress{
+    width: 100%;
+       height: 235px;
+       font-size: 12px;
+       margin-left: 7%;
+       border-radius: 50px;
+       
+   }
+   .text-interface{
+    width: 110%;
+    height: 235px;
+    font-size: 12px;
+    /* margin-left: 8px; */
+    border-radius: 50px;
+   }
+   .photo{
+   width: 30px;
+   height: 30px;
+   background-color: white;
+   border-radius: 50%;
+   border:  solid #090958 2px;
+   object-fit: cover;
+   position: relative;
+   margin-top: -12%;
+   margin-left: -0%;
+   }   
+}
+@media (min-width:375px) and (max-width:667px){
     .container{
-        margin-left:5px;
     text-align: center;
+    position: relative;
+    left: 3px;
+    font-family:'old standart tt';
     }
     
     .text{
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 10px;
+    display: flex;
+    gap: 120px;
+    margin-top: 100px;
+    padding: 12px;
+    
+    
+    }
+    
+    .text-container{
+        display: flex;
+        gap: 120px;
+        margin-top: 100px;
+        }
+    
+    h1{
+        text-align: center;
+    }
+    .text ul{
+     text-align: start;
+     margin: 15px;
+    
+    
+    }
+    .text-container ul{
+        margin: 15px;
+        text-align: start;
+    
+    }
+    .text-paths{
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: 15px;
+    
+    }
+    .text-resource{
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-development{
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-community{
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-progress{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-interface{
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .photo{
+    background-color: white;
+    border-radius: 50%;
+    border:  solid #090958 2px;
+    object-fit: cover;
+    position: relative;
+    margin-top: -12%;
+    margin-left: -0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+}
+@media (min-width:360px) and (max-width:740px){
+    .container{
+    text-align: center;
+    position: relative;
+    right: 10px;
+    font-family:'old standart tt';
+    }
+    
+    .text{
+    display: flex;
+    gap: 120px;
+    margin-top: 100px;
+    padding: 12px;
+    
+    
+    }
+    
+    .text-container{
+        display: flex;
+        gap: 120px;
+        margin-top: 100px;
+        }
+    
+    h1{
+        text-align: center;
+    }
+    .text ul{
+     text-align: start;
+     margin: 15px;
+    
+    
+    }
+    .text-container ul{
+        margin: 15px;
+        text-align: start;
+    
+    }
+    .text-paths{
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: 15px;
+    
+    }
+    .text-resource{
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-development{
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-community{
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-progress{
+       
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-interface{
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .photo{
+    background-color: white;
+    border-radius: 50%;
+    border:  solid #090958 2px;
+    object-fit: cover;
+    position: relative;
+    margin-top: -12%;
+    margin-left: -0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+}
+@media (min-width:412px) and (max-width:915px){
+    .container{
+    text-align: center;
+    position: relative;
+    left: 10px;
+    font-family:'old standart tt';
+    }
+    
+    .text{
+    display: flex;
+    gap: 120px;
+    margin-top: 100px;
+    padding: 12px;
+    
+    
+    }
+    
+    .text-container{
+        display: flex;
+        gap: 120px;
+        margin-top: 100px;
+        }
+    
+    h1{
+        text-align: center;
+    }
+    .text ul{
+     text-align: start;
+     margin: 15px;
+    
+    
+    }
+    .text-container ul{
+        margin: 15px;
+        text-align: start;
+    
+    }
+    .text-paths{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: 15px;
+    
+    }
+    .text-resource{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-development{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-community{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-progress{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-interface{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .photo{
+    background-color: white;
+    border-radius: 50%;
+    border:  solid #090958 2px;
+    object-fit: cover;
+    position: relative;
+    margin-top: -12%;
+    margin-left: -0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+}
+@media  (min-width:390px) and (max-width:844px){
+    .container{
+    text-align: center;
+    position: relative;
+    right: 17px;
+    font-family:'old standart tt';
+    }
+    
+    .text{
+    display: flex;
+    gap: 120px;
+    margin-top: 100px;
+    padding: 12px;
+    
+    
+    }
+    
+    .text-container{
+        display: flex;
+        gap: 120px;
+        margin-top: 100px;
+        }
+    
+    h1{
+        text-align: center;
+    }
+    .text ul{
+     text-align: start;
+     margin: 15px;
+    
+    
+    }
+    .text-container ul{
+        margin: 15px;
+        text-align: start;
+    
+    }
+    .text-paths{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: 15px;
+    
+    }
+    .text-resource{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-development{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-community{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-progress{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-interface{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .photo{
+    background-color: white;
+    border-radius: 50%;
+    border:  solid #090958 2px;
+    object-fit: cover;
+    position: relative;
+    margin-top: -12%;
+    margin-left: -0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+}
+@media (min-width:414px) and (max-width:896px){
+    .container{
+    position: relative;
+    left: 19px;
+    text-align: center;
+    font-family:'old standart tt';
+    }
+    
+    .text{
+    display: flex;
+    gap: 120px;
+    margin-top: 100px;
+    padding: 12px;
+    flex-wrap: wrap;
+    
+    
+    }
+    
+    .text-container{
+        display: flex;
+        gap: 120px;
+        margin-top: 100px;
+        flex-wrap: wrap;
+
+        }
+    
+    h1{
+        text-align: center;
+    }
+    .text ul{
+     text-align: start;
+     margin: 15px;
+    
+    
+    }
+    .text-container ul{
+        margin: 15px;
+        text-align: start;
+    
+    }
+    .text-paths{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: 15px;
+    
+    }
+    .text-resource{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-development{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-community{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-progress{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .text-interface{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+    }
+    .photo{
+    background-color: white;
+    border-radius: 50%;
+    border:  solid #090958 2px;
+    object-fit: cover;
+    position: relative;
+    margin-top: -12%;
+    margin-left: -0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width:301px) and (max-width:379px) {
+    .container{ 
+       margin-left:3.5%;
+       text-align: center;
+       width: 100%;
+       
+ 
+   } 
+   
+   .text{
+       flex-direction: column;
+   gap: 50px;
+   margin-top: 12%;
+   margin-left: 1%;
+  
+   }
+   
+   .text-container{
+       flex-direction: column;
+       gap: 50px;
+       margin-top: 12%;
+       margin-left: 2%;
+
+       }
+   
+   h1{
+   text-align: center;
+   }
+   
+   .text-paths{
+       width: 350px;
+       height: 200px;
+       font-size: 12px;
+       border-radius: 50px;
+       margin-left: -5px;
+   }
+   li{
+       font-size: 16px;
+   }
+   .text-resource{
+       width: 350px;
+       height: 200px;
+       font-size: 12px;
+       border-radius: 50px;
+       margin-left: -14px;
+
+   }
+   .text-development{
+    
+       width: 350px;
+       height: 200px;
+       font-size: 12px;
+       border-radius: 50px;
+       margin-left: -5px;
+       
+   }
+   .text-community{
+       width: 350px;
+       height: 200px;
+       font-size: 12px;
+       border-radius: 50px;
+       margin-left: -14px;
+
+   }
+   .text-progress{
+       width: 350px;
+       height: 200px;
+       font-size: 12px;
+       border-radius: 50px;
+       margin-left: -5px;
+
+       
+   }
+   .text-interface{
+       width: 350px;
+       height: 200px;
+       font-size: 12px;
+       border-radius: 50px;
+       margin-left: -14px;
+       
+
+   }
+   .photo{
+   width: 30px;
+   height: 30px;
+   background-color: white;
+   border-radius: 50%;
+   border:  solid #090958 2px;
+   object-fit: cover;
+   position: relative;
+   margin-top: -12%;
+   margin-left: -0%;
+   }   
+}
+
+
+@media (min-width:380px) and (max-width:399px){
+    .container{ 
+        margin-left:4%;
+        text-align: center;
+        width: 95%;
+  
+    } 
+    
+    .text{
+        flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+   
     }
     
     .text-container{
         flex-direction: column;
-        gap: 30px;
-        margin-top: 13px;
-        }
-    
-    h1{
-    text-align: center;
-    font-size: 16px;
-    }
-    h2{
-        font-size: 16px;   
-    }
-    
-    .text-paths{
-        background-color: #090958;
-        color: white;
-        width: 350px;
-        height: 75px;
-        font-size: 8px;
-        border-radius: 60px;
-        border: solid black 2px;
-    }
-    .text-resource{
-        background-color: #090958;
-        color: white;
-        width: 350px;
-        height: 75px;
-        font-size: 8px;
-        border-radius: 50px;
-        border: solid black 2px;
-    }
-    .text-development{
-        background-color: #090958;
-        color: white;
-        width: 350px;
-        height: 75px;
-        font-size: 8px;
-        border-radius: 50px;
-        border: solid black 2px;
-    }
-    .text-community{
-        background-color: #090958;
-        color: white;
-        width: 350px;
-        height: 80px;
-        font-size: 8px;
-        border-radius: 50px;
-        border: solid black 2px;
-    }
-    .text-progress{
-        background-color: #090958;
-        color: white;
-        width: 350px;
-        height: 80px;
-        font-size: 8px;
-        border-radius: 50px;
-        border: solid black 2px;
-    }
-    .text-interface{
-        background-color: #090958;
-        color: white;
-        width: 350px;
-        height: 80px;
-        font-size: 8px;
-        border-radius: 50px;
-        border: solid black 2px;
-    }
-    .photo{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    border-radius: 50%;
-    border:  solid #090958 2px;
-    object-fit: cover;
-    position: relative;
-    margin-top: -12%;
-    margin-left: -0%;
-    }  
-}
-@media screen and (min-width:912px) and (max-width:1368px) {
-    .container{
-        margin-left:6px;
-    text-align: center;
-    }
-    
-    .text{
-    display: flex;
-    gap: 40px;
-    margin-top: 40px;
-    }
-    
-    .text-container{
-        display: flex;
-        gap: 40px;
-        margin-top: 40px;
+        gap: 50px;
+        margin-top: 50px;
+        margin-left: 2px;
+ 
         }
     
     h1{
@@ -194,177 +831,205 @@ margin-left: -0%;
     }
     
     .text-paths{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 100px;
-        font-size: 11px;
-        border-radius: 60px;
-        border: solid black 2px;
+        width: 360px;
+        height: 180px;
+        font-size: 12px;
+        border-radius: 50px;
+        border: solid rgb(7, 7, 7) 2px;
+        margin-left: -6px;
+    }
+    li{
+        font-size: 16px;
     }
     .text-resource{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 100px;
-        font-size: 11px;
+        width: 360px;
+        height: 180px;
+        font-size: 12px;
         border-radius: 50px;
         border: solid black 2px;
+        margin-left: -17px;
+ 
     }
     .text-development{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 100px;
-        font-size: 11px;
+        width: 360px;
+        height: 180px;
+        font-size: 12px;
         border-radius: 50px;
-        border: solid black 2px;
+        margin-left: -8px;
+        
     }
     .text-community{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 100px;
-        font-size: 11px;
+        width: 360px;
+        height: 180px;
+        font-size: 12px;
         border-radius: 50px;
-        border: solid black 2px;
+        margin-left: -17px;
+ 
     }
     .text-progress{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 100px;
-        font-size: 11px;
-        border-radius: 50px;
-        border: solid black 2px;
-    }
-    .text-interface{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 100px;
-        font-size: 11px;
-        border-radius: 50px;
-        border: solid black 2px;
-    }
-    .photo{
-    width: 45px;
-    height: 45px;
-    background-color: white;
-    border-radius: 50%;
-    border:  solid #090958 2px;
-    object-fit: cover;
-    position: relative;
-    margin-top: -12%;
-    margin-left: -0%;
-    }
-}
 
-@media screen and (min-width:412px) and (max-width:914px) {
-    .container{
-        margin-left:6px;
-    text-align: center;
-    }
-    
-    .text{
-    display: flex;
-    gap: 30px;
-    margin-top: 30px;
-    }
-    
-    .text-container{
-        display: flex;
-        gap: 30px;
-        margin-top: 30px;
-        }
-    
-    h1{
-    text-align: center;
-    }
-    
-    .text-paths{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 110px;
-        font-size: 12px;
-        border-radius: 60px;
-        border: solid black 2px;
-    }
-    .text-resource{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 110px;
+        width: 360px;
+        height: 180px;
         font-size: 12px;
         border-radius: 50px;
-        border: solid black 2px;
-    }
-    .text-development{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 110px;
-        font-size: 12px;
-        border-radius: 50px;
-        border: solid black 2px;
-    }
-    .text-community{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 110px;
-        font-size: 12px;
-        border-radius: 50px;
-        border: solid black 2px;
-    }
-    .text-progress{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 110px;
-        font-size: 12px;
-        border-radius: 50px;
-        border: solid black 2px;
+        margin-left: 2px;
+ 
+        
     }
     .text-interface{
-        background-color: #090958;
-        color: white;
-        width: 400px;
-        height: 110px;
+        width: 360px;
+        height: 180px;
         font-size: 12px;
         border-radius: 50px;
-        border: solid black 2px;
+        margin-left: -15px;
+ 
     }
     .photo{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     background-color: white;
     border-radius: 50%;
-    border:  solid #090958 2px;
     object-fit: cover;
     position: relative;
     margin-top: -12%;
     margin-left: -0%;
     }   
-    
+ }
+
+
+@media (min-width:400px) and (max-width:414px) {
+    .container{ 
+       margin-left:24px;
+   text-align: center;
+   width: 100%;
+ 
+   } 
+   
+   .text{
+       flex-direction: column;
+   gap: 50px;
+   margin-top: 50px;
+   margin-left: 1%;
+
+
+   }
+   
+   .text-container{
+       flex-direction: column;
+       gap: 50px;
+       margin-top: 50px;
+       margin-left: 1%;
+       }
+   
+   h1{
+   text-align: center;
+   }
+   
+   .text-paths{
+       background-color: #090958;
+       color: white;
+       width: 370px;
+       height: 200px;
+       font-size: 12px;
+       border-radius: 50px;
+       border: solid rgb(7, 7, 7) 2px;
+       margin-left: -8px;
+   }
+   li{
+       font-size: 16px;
+   }
+   .text-resource{
+       background-color: #090958;
+       color: white;
+       width: 370px;
+       height: 200px;
+       font-size: 12px;
+       border-radius: 50px;
+       border: solid black 2px;
+       margin-left: -18px;
+
+
+   }
+   .text-development{
+       background-color: #090958;
+       color: white;
+       width: 405px;
+       width: 370px;
+       height: 200px;
+       font-size: 12px;
+       margin-left: -8px;
+       border-radius: 50px;
+       border: solid black 2px;
+       
+   }
+   .text-community{
+       background-color: #090958;
+       color: white;
+       width: 370px;
+       height: 200px;
+       font-size: 12px;
+       border-radius: 50px;
+       border: solid black 2px;
+       margin-left: -21px;
+
+   }
+   .text-progress{
+       background-color: #090958;
+       color: white;
+       width: 370px;
+       height: 200px;
+       font-size: 12px;
+       border-radius: 50px;
+       border: solid black 2px;
+       margin-left: -8px;
+       
+   }
+   .text-interface{
+       background-color: #090958;
+       color: white;
+       width: 370px;
+       height: 200px;
+       font-size: 12px;
+       border-radius: 50px;
+       margin-left: -14px;
+       border: solid black 2px;
+   }
+   .photo{
+   width: 30px;
+   height: 30px;
+   background-color: white;
+   border-radius: 50%;
+   border:  solid #090958 2px;
+   object-fit: cover;
+   position: relative;
+   margin-top: -12%;
+   margin-left: -0%;
+   }   
 }
-@media screen and (min-width:280px) and (max-width:653px) {
-    .container{
-        margin-left:6px;
+
+
+@media (min-width:415px) and (max-width:500px) {
+    .container{ 
+        margin-left:2px;
     text-align: center;
-    }
+    width: 100%;
+  
+    } 
     
     .text{
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 30px;
+        flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 1%;
+ 
+ 
     }
     
     .text-container{
         flex-direction: column;
-        gap: 30px;
-        margin-top: 30px;
+        gap: 50px;
+        margin-top: 50px;
+        margin-left: 1%;
         }
     
     h1{
@@ -374,55 +1039,71 @@ margin-left: -0%;
     .text-paths{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 110px;
+        width: 370px;
+        height: 200px;
         font-size: 12px;
-        border-radius: 60px;
-        border: solid black 2px;
+        border-radius: 50px;
+        border: solid rgb(7, 7, 7) 2px;
+        margin-left: 30px;
+       
+    }
+    li{
+        font-size: 16px;
     }
     .text-resource{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 110px;
+        width: 370px;
+        height: 200px;
         font-size: 12px;
         border-radius: 50px;
         border: solid black 2px;
+        margin-left: -18px;
+ 
+ 
     }
     .text-development{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 110px;
+        width: 405px;
+        width: 370px;
+        height: 200px;
         font-size: 12px;
+        margin-left: -8px;
         border-radius: 50px;
         border: solid black 2px;
+        
     }
     .text-community{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 110px;
+        width: 370px;
+        height: 200px;
         font-size: 12px;
         border-radius: 50px;
         border: solid black 2px;
+        margin-left: -21px;
+ 
     }
     .text-progress{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 110px;
+        width: 370px;
+        height: 200px;
         font-size: 12px;
         border-radius: 50px;
         border: solid black 2px;
+        margin-left: -8px;
+        
     }
     .text-interface{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 110px;
+        width: 370px;
+        height: 200px;
         font-size: 12px;
         border-radius: 50px;
+        margin-left: -14px;
         border: solid black 2px;
     }
     .photo{
@@ -436,24 +1117,245 @@ margin-left: -0%;
     margin-top: -12%;
     margin-left: -0%;
     }   
+ }
+ 
+ 
+
+
+@media (min-width:501px) and (max-width:700px) {
+    .container{
+    text-align: center;
+    font-family:'old standart tt';
+   
+    }
+    
+    .text{
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 80px;
+    
+    
+    }
+    
+    .text-container{
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 100px;
+      
+        }
+    
+    h1{
+        text-align: center;
+    }
+    .text ul{
+     text-align: start;
+     margin: 15px;
+    
+    
+    }
+    .text-container ul{
+        margin: 15px;
+        text-align: start;
+    
+    }
+   
+   
+    .text-resource{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: -14px;
+
+    }
+    .text-development{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: -3px;
+
+
+    }
+    .text-community{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: -13px;
+    }
+    .text-progress{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-right: -5px;
+
+    }
+    .text-interface{
+        background-color: #090958;
+        color: white;
+        width: 400px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: -13px;
+
+    }
+    .photo{
+    background-color: white;
+    border-radius: 50%;
+    border:  solid #090958 2px;
+    object-fit: cover;
+    position: relative;
+    margin-top: -12%;
+    margin-left: -0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
 }
 
-@media screen and (min-width:820px) and (max-width:1180px) {
+@media screen and (min-width:701px) and (max-width:850px) {
+
     .container{
-        margin-left:px;
+        margin-left:170px;
+    text-align: center;
+    font-family:'old standart tt';
+            font-size: 20px;
+
+    }
+    
+    .text{
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 80px;
+    
+    
+    }
+    
+    .text-container{
+        flex-direction: column;
+        gap: 80px;
+        margin-top: 100px;
+        }
+    
+    h1{
+        text-align: center;
+    }
+    .text ul{
+     text-align: start;
+     margin: 15px;
+    
+    
+    }
+    .text-container ul{
+        margin: 15px;
+        text-align: start;
+    
+    }
+    .text-paths{
+        width: 600px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid #000000 2px;
+        margin-left: -15%;
+    
+    }
+    .text-resource{
+        width: 600px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: -15%;
+
+    }
+    .text-development{
+        width: 600px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: -15%;
+
+    }
+    .text-community{
+        width: 600px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: -15%;
+    }
+    .text-progress{
+        width: 600px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: -15%;
+
+    }
+    .text-interface{
+        width: 600px;
+        height: 250px;
+        border-radius: 70px;
+        border: solid black 2px;
+        margin-left: -15%;
+
+    }
+    .photo{
+    background-color: white;
+    border-radius: 50%;
+    border:  solid #090958 2px;
+    object-fit: cover;
+    position: relative;
+    margin-top: -12%;
+    margin-left: -0%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
+}
+
+@media (min-width:851px) and (max-width:1000px) {
+    .container{
+        margin-left:100px;
     text-align: center;
     }
     
     .text{
-    flex-direction: row;
-    gap: 30px;
-    margin-top: 50px;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 70px;
+
+
     }
     
     .text-container{
-        flex-direction:row;
-        gap: 30px;
-        margin-top: 50px;
+        flex-direction:column;
+        gap: 70px;
+        margin-top: 70px;
+
         }
     
     h1{
@@ -461,58 +1363,56 @@ margin-left: -0%;
     }
     
     .text-paths{
-        background-color: #090958;
-        color: white;
-        width: 400px;
+        width: 710px;
         height: 400px;
-        font-size: 20px;
-        border-radius: 60px;
-        border: solid black 2px;
+        border-radius: 80px;
+        font-size: 30px;
+
+
     }
     .text-resource{
-        background-color: #090958;
-        color: white;
-        width: 400px;
+        width: 710px;
         height: 400px;
         font-size: 20px;
-        border-radius: 50px;
-        border: solid black 2px;
+        border-radius: 80px;
+        font-size: 30px;
+
     }
     .text-development{
-        background-color: #090958;
-        color: white;
-        width: 400px;
+        width: 710px;
         height: 400px;
         font-size: 20px;
-        border-radius: 50px;
-        border: solid black 2px;
+        border-radius: 80px;
+        font-size: 30px;
+
+
     }
     .text-community{
-        background-color: #090958;
-        color: white;
-        width: 400px;
+        width: 710px;
         height: 400px;
         font-size: 20px;
-        border-radius: 50px;
-        border: solid black 2px;
+        border-radius: 80px;
+        font-size: 30px;
+
+
     }
     .text-progress{
-        background-color: #090958;
-        color: white;
-        width: 400px;
+        width: 710px;
         height: 400px;
         font-size: 20px;
-        border-radius: 50px;
-        border: solid black 2px;
+        border-radius: 80px;
+        font-size: 30px;
+
+
     }
     .text-interface{
-        background-color: #090958;
-        color: white;
-        width: 400px;
+        width: 710px;
         height: 400px;
         font-size:20px;
-        border-radius: 50px;
-        border: solid black 2px;
+        border-radius: 80px;
+        font-size: 30px;
+
+
     }
     .photo{
     width: 50px;
@@ -527,35 +1427,39 @@ margin-left: -0%;
 }
 }
 
-@media screen and (min-width:600px) and (max-width:1024px) {
+@media (min-width:1000px) and (max-width:1150px) {
     .container{
-        margin-left:px;
     text-align: center;
+    margin-left: 0px;
+    position: relative;
     }
     
     .text{
     flex-direction: row;
-    gap: 30px;
-    margin-top: 34px;
+    gap: 80px;
+    margin-top: 35px;
+
 
     }
     
     .text-container{
         flex-direction:row;
-        gap: 30px;
-        margin-top: 40px;
+        gap: 40px;
+        margin-top: 35px;
+        margin-right: 12px;
         }
     
     h1{
     text-align: center;
+    font-size: 22px;
     }
     
     .text-paths{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 230px;
-        border-radius: 60px;
+        width: 310px;
+        height: 225px;
+        border-radius: 80px;
         border: solid black 2px;
         font-size: 14px;
 
@@ -563,20 +1467,19 @@ margin-left: -0%;
     .text-resource{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 230px;
-        font-size: 20px;
-        border-radius: 50px;
+        width: 350px;
+        height: 225px;
+        border-radius: 80px;
         border: solid black 2px;
         font-size: 14px;
     }
     .text-development{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 230px;
+        width: 310px;
+        height: 225px;
         font-size: 20px;
-        border-radius: 50px;
+        border-radius: 80px;
         border: solid black 2px;
         font-size: 14px;
 
@@ -584,39 +1487,37 @@ margin-left: -0%;
     .text-community{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 230px;
+        width: 350px;
+        height: 225px;
         font-size: 20px;
-        border-radius: 50px;
+        border-radius: 80px;
         border: solid black 2px;
-        font-size: 14px;
+        font-size:14px;
 
     }
     .text-progress{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 230px;
-        font-size: 20px;
-        border-radius: 50px;
-        border: solid black 2px;
+        width: 310px;
+        height: 225px;
         font-size: 14px;
+        border-radius: 80px;
+        border: solid black 2px;
 
     }
     .text-interface{
         background-color: #090958;
         color: white;
-        width: 400px;
-        height: 230px;
-        font-size:20px;
-        border-radius: 50px;
+        width: 350px;
+        height: 225px;
+        font-size:14px;
+        border-radius: 80px;
         border: solid black 2px;
-        font-size: 14px;
 
     }
     .photo{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     background-color: white;
     border-radius: 50%;
     border:  solid #090958 2px;
@@ -626,3 +1527,111 @@ margin-left: -0%;
     margin-left: -0%;
 }
 }
+
+
+@media (min-width:1151px) and (max-width:1300px) {
+    .container{
+        margin-left:-7px;
+    text-align: center;
+    }
+    
+    .text{
+        display: flex;
+    gap: 25px;
+    margin-top: 55px;
+    margin-left: 2px;
+
+    }
+    
+    .text-container{
+        flex-direction:row;
+        gap:25px;
+        margin-top: 80px;
+        margin-right: 10px;
+        }
+    
+    h1{
+    text-align: center;
+    font-size: 30px;
+    }
+    
+    .text-paths{
+        background-color: #090958;
+        color: white;
+        width: 600px;
+        height: 280px;
+        font-size: 16px;
+        border-radius: 80px;
+        border: solid black 2px;
+        font-size: 20px;
+
+    }
+    .text-resource{
+        background-color: #090958;
+        color: white;
+        width: 600px;
+        height: 280px;
+        font-size: 16px;
+        border-radius: 80px;
+        border: solid black 2px;
+        font-size: 20px;
+    }
+    .text-development{
+        background-color: #090958;
+        color: white;
+        width: 600px;
+        height: 280px;
+        font-size: 16px;
+        border-radius: 80px;
+        border: solid black 2px;
+        font-size: 20px;
+        
+
+    }
+    .text-community{
+        background-color: #090958;
+        color: white;
+        width: 600px;
+        height: 280px;
+        font-size: 16px;
+        border-radius: 80px;
+        border: solid black 2px;
+        font-size:20px;
+
+    }
+    .text-progress{
+        background-color: #090958;
+        color: white;
+        width: 600px;
+        height: 280px;
+        font-size: 16px;
+        border-radius: 80px;
+        border: solid black 2px;
+        font-size: 20px;
+
+    }
+    .text-interface{
+        background-color: #090958;
+        color: white;
+        width: 600px;
+        height: 280px;
+        font-size: 16px;
+        border-radius: 80px;
+        border: solid black 2px;
+        font-size: 20px;
+
+    }
+    .photo{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    border:  solid #090958 2px;
+    object-fit: cover;
+    position: relative;
+    margin-top: -12%;
+    margin-left: -0%;
+}
+} 
+
+
