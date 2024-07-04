@@ -1,6 +1,10 @@
 /* Base styles */
+/* body{
+    font-family: 'old standard tt';
+} */
 .aboutus-sections {
     margin: 5%;
+
 }
 
 .aboutus-section {
@@ -16,17 +20,35 @@
     border-radius: 50px;
     height: 400px;
     color: black;
+    font-family: 'old standard tt';
     font-size: large;
     padding: 0%;
 }
 
-.heading-mission {
+
+#content{
+font-size: 30px;
+font-family: 'old standard tt';
+
+}
+
+
+
+#content-mission{
+    font-size: 30px;
+    font-family: 'old standard tt';
+    
+    }
+.heading-mission-mission {
     text-align: center;
+    font-size: 45px;
+    margin-top: 9%;
 }
 
 .about-us {
     text-align: center;
     margin-bottom: 5%;
+    font-family: 'old standard tt';
     font-size: 50px;
 }
 
@@ -40,7 +62,7 @@
 #mission-icons {
     width: 150px;
     height: 150px;
-    margin-left: 30%;
+    margin-left: 40%;
     margin-top: 10%;
 }
 
@@ -50,12 +72,38 @@
     margin-left: 30%;
 }
 
+/* @media (width: 280px) {
+    
+#vision-icons {
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 25%;
+}
+
+#mission-icons {
+    width: 140px;
+    height: 140px;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+#values-icons {
+    width: 160px;
+    height: 160px;
+    margin-right: 0%;
+    margin-top: 15%;
+}
+
+}
+     */
+
 
 @media only screen and (max-width: 480px) {
     
-.aboutus-sections {
-    margin: 0%;
-}
+    .aboutus-sections {
+        margin: 0%;
+    }
 
 .aboutus-section {
     display: flex;
@@ -64,45 +112,77 @@
     justify-content: space-evenly;
     margin: 10%;
     margin-top: 0%;
-    gap: 10px;
+    gap: 0px;
 }
+#content{
+    font-size: 20px;
+    }
 
+
+    #content-values{
+        font-size: 20px;
+        }   
+
+
+        #content-mission{
+            font-size: 20px;
+            }  
 .mission {
     border-radius: 50px;
     height: 400px;
     color: black;
     font-size: large;
     padding: 0%;
+    font-family: 'old standard tt';
 }
+
+.heading-mission-mission {
+    text-align: center;
+    margin-right: 8%;
+    font-size: 30px;
+}
+
+
+.heading-mission-values {
+    text-align: center;
+    margin-right: 8%;
+    font-size: 30px;
+}
+
 
 .heading-mission {
     text-align: center;
+    margin-right: 8%;
+    font-size: 30px;
 }
-
 .about-us {
     text-align: center;
     margin-bottom: 5%;
     font-size: 50px;
+    font-family: 'old standard tt';
 }
 
 #vision-icons {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     margin-left: 30%;
-    margin-top: 17%;
+    margin-top: 25%;
+
 }
 
 #mission-icons {
-    width: 150px;
-    height: 150px;
-    margin-left: 10%;
-    margin-top: 10%;
+    width: 120px;
+    height: 120px;
+    margin-left: 28%;
+    margin-top: 15%;
 }
 
 #values-icons {
-    width: 190px;
-    height: 190px;
-    margin-left: 8%;
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+    margin-top: 15%;
+  
 }
 
  }
@@ -116,6 +196,21 @@
     margin-left: 5%;
 }
 
+#content{
+    font-size: 20px;
+    font-family: 'old standard tt';
+    }
+
+#content-values{
+        font-size: 20px;
+        font-family: 'old standard tt';
+        }
+
+#content-mission{
+            font-size: 20px;
+            font-family: 'old standard tt';
+            }
+
 .aboutus-section {
     display: flex;
     flex-direction: column;
@@ -123,7 +218,8 @@
     justify-content: space-evenly;
     margin: 10%;
     margin-top: 0%;
-    gap: 10px;
+    gap: 0px;
+    margin-left: 5%;
 }
 
 .mission {
@@ -132,36 +228,51 @@
     color: black;
     font-size: large;
     padding: 0%;
+    font-family: 'old standard tt';
 }
+
+.heading-mission-mission {
+    text-align: center;
+    margin-right: 10%;
+    font-size: 30px;
+}
+
+
 
 .heading-mission {
     text-align: center;
+    margin-right: 10%;
+    font-size: 30px;
 }
-
+.heading-mission-values{
+    text-align: center;
+    font-size: 30px;
+}
 .about-us {
     text-align: center;
     margin-bottom: 5%;
-    font-size: 50px;
+    margin-right: 15%;
+    font-size: 40px;
 }
 
 #vision-icons {
-    width: 120px;
-    height: 120px;
-    margin-left: 30%;
-    margin-top: 17%;
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    margin-top: 5%;
 }
 
 #mission-icons {
-    width: 150px;
-    height: 150px;
-    margin-left: 30%;
+    width: 120px;
+    height: 120px;
+    margin-left: 35%;
     margin-top: 10%;
 }
 
 #values-icons {
-    width: 190px;
-    height: 190px;
-    margin-left: 30%;
+    width: 150px;
+    height: 150px;
+    margin-left: 35%;
 }
  }
 
@@ -173,15 +284,33 @@
 .aboutus-sections {
     margin: 0;
     top: 0%;
+    font-size: 30px;
+    padding: 0%;
 }
+
+#content{
+    font-size: 20px;
+    padding: 0%;
+    }
+
+
+
+#content-mission{
+        font-size: 20px;
+        }
+#content-values{
+            font-size: 20px;
+            }
+        
 
 .aboutus-section {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
-    margin: 10%;
-    margin-top: 0%;
-    gap: 80px;
+    margin: 3%;
+    margin-bottom: 0%;
+    gap: 50px;
 }
 
 .mission {
@@ -190,36 +319,57 @@
     color: black;
     font-size: large;
     padding: 0%;
+    font-family: 'old standard tt';
 }
 
 .heading-mission {
     text-align: center;
+    font-size: 30px;
+    margin-top: 18%;
+    padding: 0%;
+}
+
+
+.heading-mission-values {
+    text-align: center;
+    font-size: 30px;
+    /* margin-top: ; */
+}
+
+
+.heading-mission-mission {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 8%;
 }
 
 .about-us {
     text-align: center;
     margin-bottom: 5%;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 #vision-icons {
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     margin-left: 30%;
-    margin-top: 17%;
+    margin-top: 15%;
+    margin-bottom: 0%;
+    padding: 0%;
 }
 
 #mission-icons {
-    width: 150px;
-    height: 150px;
-    margin-left: 30%;
-    margin-top: 10%;
+    width: 110px;
+    height: 110px;
+    margin-left: 35%;
+    margin-top: 15%;
 }
 
 #values-icons {
-    width: 190px;
-    height: 190px;
-    margin-left: 30%;
+    width: 140px;
+    height: 140px;
+    margin-left: 20%;
+    margin-top: 0%;
 }
  }
 
@@ -227,16 +377,33 @@
  @media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
 .aboutus-sections {
-    margin: 5%;
+    margin: 60px;
 }
+#content{
+    font-size: 20px;
+    text-align: left;
+    /* padding:px; */
+    }
 
+#content-mission{
+        font-size: 20px;
+        /* padding: 10px; */
+
+        }   
+        
+#content-values{
+    font-size: 20px;
+    /* padding: 10px; */
+}        
 .aboutus-section {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     justify-content: space-evenly;
-    margin: 10%;
+    margin: 1%;
     margin-top: 0%;
-    gap: 80px;
+    gap: 30px;
+    text-align: start;
 }
 
 .mission {
@@ -245,12 +412,26 @@
     color: black;
     font-size: large;
     padding: 0%;
+    font-family: 'old standard tt';
 }
 
 .heading-mission {
     text-align: center;
+    font-size: 35px;
+    margin-top: 12%;
 }
 
+.heading-mission-mission {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 12%;
+}
+
+
+.heading-mission-values {
+    text-align: center;
+    font-size: 35px;
+}
 .about-us {
     text-align: center;
     margin-bottom: 5%;
@@ -258,23 +439,24 @@
 }
 
 #vision-icons {
-    width: 120px;
-    height: 120px;
-    margin-left: 30%;
-    margin-top: 17%;
+    width: 100px;
+    height: 100px;
+    margin-left: 29%;
+    /* margin-top: 0%; */
+    margin-bottom: 0%;
 }
 
 #mission-icons {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin-left: 30%;
     margin-top: 10%;
 }
 
 #values-icons {
-    width: 190px;
-    height: 190px;
-    margin-left: 30%;
+    width: 170px;
+    height: 170px;
+    margin-left: 20%;
 }
   
  }
@@ -282,11 +464,26 @@
 
  @media only screen and (min-width: 1281px) {
 
-    /* Base styles */
 .aboutus-sections {
     margin: 0%;
 }
 
+
+#content{
+    font-size: 25px;
+    }
+
+
+ #content-values{
+        font-size: 25px;
+        margin-top: 9%;
+        }    
+
+
+#content-mission{
+            font-size: 25px;
+            margin-top: 9%;
+            }          
 .aboutus-section {
     display: flex;
     justify-content: center;
@@ -302,16 +499,27 @@
     color: black;
     font-size: large;
     padding: 0%;
+    font-family: 'old standard tt';
 }
 
 .heading-mission {
     text-align: center;
+    font-size: 50px;
 }
 
+
+
+
+
+.heading-mission-values {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10%;
+}
 .about-us {
     text-align: center;
-    margin-bottom: 5%;
-    font-size: 50px;
+    margin-bottom: 2%;
+    font-size: 60px;
 }
 
 #vision-icons {
@@ -332,5 +540,9 @@
     width: 190px;
     height: 190px;
     margin-left: 30%;
+    margin-top: 0%;
 }
  }
+ 
+ 
+ 

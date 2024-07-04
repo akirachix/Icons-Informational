@@ -10,8 +10,8 @@ const AboutUs =()=>{
             
             <div className='mission'>
                 <img src='/media/mission.png'id='mission-icons'/>
-                <h2  className='heading-mission'>Our Mission</h2>
-                <p>
+                <h2  className='heading-mission-mission'>Our Mission</h2>
+                <p id="content-mission"> 
                     Through EduKeri, our mission is to transform the 
                     landscape of education in Kenya, making digital literacy 
                     a cornerstone of teaching and learning.
@@ -22,8 +22,8 @@ const AboutUs =()=>{
 
             <div className='mission'>
                 <img src='/media/values.png' id='values-icons'/>
-                <h2 className='heading-mission'>Our Values</h2>
-                <p>
+                <h2 className='heading-mission-values'>Our Values</h2>
+                <p id="content-values">
                     Integrity guides our actions, ensuring that our efforts 
                     are transparent, accountable, and focused on delivering real
                      impact in the communities we serve.
@@ -35,9 +35,9 @@ const AboutUs =()=>{
             <div className='mission'>
                 <img src='/media/vision.png' id='vision-icons'/>
                 <h2 className='heading-mission'>Our Vision</h2>
-                <p>Our vision is to create a digitally literate teaching 
+                <p id="content">Our vision is to create a digitally literate teaching 
                     force in rural Kenya, transforming classrooms into 
-                    vibrant hubs of innovation and learning
+                    vibrant hubs of innovation and learning.
                 </p>
 
             </div>
