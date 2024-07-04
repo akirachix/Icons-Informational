@@ -1,26 +1,7 @@
 import Landing from "./Landing-page";
-import "./index.css"
+import "./index.css";
+import { Navbar } from "./Navbar";
 
-
-export const Navbar = () => {
-  return(
-      <nav className = "navbar">
-          <div className='navbar-logo' >
-              <img src="/Images/logo.png"></img>
-          </div>
-          <div className='links'>
-              <ul className='links'>
-                  <li><a href=''>Home</a></li>
-                  <li><a href=''>About us</a></li>
-                  <li><a href=''>Our services</a></li>
-                  <li><a href=''>Team</a></li>
-                  <li><a href=''>Contacts</a></li>
-              </ul>
-          </div>
-      </nav>
-
-  );
-}
 
 function App() {
   return (
