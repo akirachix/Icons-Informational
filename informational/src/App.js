@@ -1,10 +1,14 @@
-import Paragraph from "./Paragraph";
+import CallToAction from "./CallToAction";
+import Footer from "./Footer";
+import "./index.css"
 import "./index.css"
 const App = ()=>{
   return(
     <div>
       
-      <Paragraph/>
+      <CallToAction/>
+      <Footer/>
+  
 
     </div>
 
