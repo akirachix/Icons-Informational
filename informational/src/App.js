@@ -1,4 +1,5 @@
 import Landing from "./Landing-page";
+import AboutUs from "./Aboutus.js";
 import "./index.css";
 import { Navbar } from "./Navbar";
 
@@ -8,6 +9,7 @@ function App() {
     <div className='App'>
       <Navbar/>
       <Landing/>
+      <AboutUs/>
     </div>
   );
 }
