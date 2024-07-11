@@ -1,38 +1,6 @@
 body{
     font-family:'Old Standard TT';
 }
-.navbar{
-    margin-left: 1%;
-    display: flex;
-    align-items: center;
-    gap: 49%;
-    background-color: white;
-    color: black;
-    padding: 20px;
-
-}
-.navbar-logo{
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    height: fit-content;
-}
-.navbar-logo img{
-    height: 60px;
-    width: 60px;
-    margin-left: 10%;
-}
-.links{
-    gap: 90px;
-    display: flex;
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-style: bold;
-}
 .landing{
     position: relative;
     background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Documents/JS-AnitaB/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
@@ -101,38 +69,6 @@ a{
 @media screen and (min-width: 280px) and (max-width:480px){
     body{
         font-family: 'Old Family TT';
-    }
-    .navbar{
-        display: flex;
-        gap: 2px;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1px;
-        background-color: white;
-        color: black;
-        padding-left: 1px;
-        padding-right: 1px;
-    
-    }
-    .navbar-logo{
-        display: flex;
-        align-items: center;
-        width: fit-content;
-        height: fit-content;
-    }
-    .navbar-logo img{
-        height: 30px;
-        width: 30px;
-    }
-    .links{
-        gap: 5px;
-        display: flex;
-        list-style: none;
-    }
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: 10px;
     }
     .landing{
         background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/home/studen/Documents/JS-AnitaB/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
@@ -203,38 +139,6 @@ a{
     body{
         font-family: Old Family TT;
     }
-    .navbar{
-        display: flex;
-        gap: 2px;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1px;
-        background-color: white;
-        color: black;
-        padding-left: 1px;
-        padding-right: 1px;
-    
-    }
-    .navbar-logo{
-        display: flex;
-        align-items: center;
-        width: fit-content;
-        height: fit-content;
-    }
-    .navbar-logo img{
-        height: 30px;
-        width: 30px;
-    }
-    .links{
-        gap: 5px;
-        display: flex;
-        list-style: none;
-    }
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: 10px;
-    }
     .landing{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Documents/JS-AnitaB/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
         height: 500px;
@@ -303,38 +207,6 @@ a{
 @media screen and (min-width: 481px) and (max-width:680px){
     body{
         font-family: 'Old Family TT';
-    }
-    .navbar{
-        display: flex;
-        gap: 2px;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1px;
-        background-color: white;
-        color: black;
-        padding-left: 1px;
-        padding-right: 1px;
-    
-    }
-    .navbar-logo{
-        display: flex;
-        align-items: center;
-        width: fit-content;
-        height: fit-content;
-    }
-    .navbar-logo img{
-        height: 30px;
-        width: 30px;
-    }
-    .links{
-        gap: 5px;
-        display: flex;
-        list-style: none;
-    }
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: 10px;
     }
     .landing{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Documents/JS-AnitaB/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
@@ -405,38 +277,6 @@ a{
 @media screen and (min-width: 681px) and (max-width:880px){
     body{
         font-family: 'Old Family TT';
-    }
-    .navbar{
-        display: flex;
-        gap: 2px;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1px;
-        background-color: white;
-        color: black;
-        padding-left: 1px;
-        padding-right: 1px;
-    
-    }
-    .navbar-logo{
-        display: flex;
-        align-items: center;
-        width: fit-content;
-        height: fit-content;
-    }
-    .navbar-logo img{
-        height: 30px;
-        width: 30px;
-    }
-    .links{
-        gap: 20px;
-        display: flex;
-        list-style: none;
-    }
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: 15px;
     }
     .landing{
         background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/home/studen/Documents/JS-AnitaB/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
@@ -509,38 +349,6 @@ a{
 @media screen and (min-width: 881px) and (max-width:1020px){
     body{
         font-family: Old Family TT;
-    }
-    .navbar{
-        display: flex;
-        gap: 2px;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1px;
-        background-color: white;
-        color: black;
-        padding-left: 1px;
-        padding-right: 1px;
-    
-    }
-    .navbar-logo{
-        display: flex;
-        align-items: center;
-        width: fit-content;
-        height: fit-content;
-    }
-    .navbar-logo img{
-        height: 30px;
-        width: 30px;
-    }
-    .links{
-        gap: 20px;
-        display: flex;
-        list-style: none;
-    }
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
     }
     .landing{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Documents/JS-AnitaB/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
@@ -615,39 +423,6 @@ a{
     body{
         font-family: 'Old Family TT';
     }
-    .navbar{
-        display: flex;
-        gap: 2px;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1px;
-        background-color: white;
-        color: black;
-        padding-left: 1px;
-        padding-right: 1px;
-    
-    }
-    .navbar-logo{
-        display: flex;
-        align-items: center;
-        width: fit-content;
-        height: fit-content;
-    }
-    .navbar-logo img{
-        height: 40px;
-        width: 40px;
-        margin-left: 20%;
-    }
-    .links{
-        gap: 20px;
-        display: flex;
-        list-style: none;
-    }
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-    }
     .landing{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Documents/JS-AnitaB/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");
         height: 450px;
@@ -719,42 +494,6 @@ a{
 @media screen and (min-width: 1051px) and (max-width:1281px){
     body{
         font-family: 'Old Family TT';
-    }
-    .navbar{
-        display: flex;
-        gap: 2px;
-        align-items: center;
-        padding: 1px;
-        background-color: white;
-        color: black;
-        padding-left: 1px;
-        padding-right: 1px;
-    
-    }
-  
-    .navbar-logo{
-        display: flex;
-        align-items: center;
-        width: fit-content;
-        height: fit-content;
-        margin-left: 1%;
-    }
-    .navbar-logo img{
-        height: 40px;
-        width: 40px;
-    }
-    .links{
-        gap: 50px;
-        display: flex;
-        list-style: none;
-        margin-right: 3.3%;
-        width: 650px;
-        
-    }
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
     }
     .landing{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Documents/JS-AnitaB/Edukeri/Icons-Informational/informational/public/Images/man.jpeg");

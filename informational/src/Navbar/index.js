@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import "./index.css";
 
 const NavbarContainer = styled.nav`
   display: flex;

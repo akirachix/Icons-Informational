@@ -1,5 +1,4 @@
 import Landing from "./Landing-page";
-import "./index.css";
 import { Navbar } from "./Navbar";
 
 
