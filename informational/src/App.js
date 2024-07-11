@@ -1,5 +1,5 @@
 import Landing from "./Landing-page";
-import AboutUs from "./Aboutus";
+import AboutUs from "./AboutUs";
 
 import { Navbar } from "./Navbar";
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='App'>
       <Navbar/>
-      <Landing/>
+      <Landing/>  
       <AboutUs/>
     </div>
   );
