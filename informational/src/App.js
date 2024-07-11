@@ -1,6 +1,6 @@
 import Landing from "./Landing-page";
-import AboutUs from "./Aboutus.js";
-import "./index.css";
+import AboutUs from "./Aboutus";
+
 import { Navbar } from "./Navbar";
 
 
