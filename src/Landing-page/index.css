@@ -35,7 +35,7 @@ a{
 }
 .landing{
     position: relative;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Icons-Informational/informational/public/Images/man.jpeg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/public/Images/man.jpeg");
     height: 820px;
     background-size: cover;
     background-position: center;
@@ -140,7 +140,7 @@ a{
         font-size: 10px;
     }
     .landing{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/home/studen/Icons-Informational/informational/public/Images/man.jpeg");
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/Images/man.jpeg");
         height: 500px;
         background-size: cover;
         background-position: center;
@@ -241,7 +241,7 @@ a{
         font-size: 10px;
     }
     .landing{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Icons-Informational/informational/public/Images/man.jpeg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/public/Images/man.jpeg");
         height: 500px;
         background-size: cover;
         background-position: center;
@@ -342,7 +342,7 @@ a{
         font-size: 10px;
     }
     .landing{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Icons-Informational/informational/public/Images/man.jpeg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/public/Images/man.jpeg");
         height: 500px;
         background-size: cover;
         background-position: center;
@@ -444,7 +444,7 @@ a{
         font-size: 15px;
     }
     .landing{
-        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/home/studen/Icons-Informational/informational/public/Images/man.jpeg");
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/Images/man.jpeg");
         height: 800px;
         background-size: cover;
         background-position: center;
@@ -548,7 +548,7 @@ a{
         font-size: 20px;
     }
     .landing{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Icons-Informational/informational/public/Images/man.jpeg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/public/Images/man.jpeg");
         height: 800px;
         background-size: cover;
         background-position: center;
@@ -654,7 +654,7 @@ a{
         font-size: 20px;
     }
     .landing{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Icons-Informational/informational/public/Images/man.jpeg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/public/Images/man.jpeg");
         height: 450px;
         background-size: cover;
         background-position: center;
@@ -762,7 +762,7 @@ a{
         font-size: 20px;
     }
     .landing{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Icons-Informational/informational/public/Images/man.jpeg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/public/Images/man.jpeg");
         height: 450px;
         background-size: cover;
         background-position: center;
