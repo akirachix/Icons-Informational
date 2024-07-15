@@ -1,12 +1,12 @@
-import Landing from "./Landing-page";
-import { Navbar } from "./Navbar";
+import LandingPage from "./LandingPage";
+import  Navbar from "./Navbar";
 
 
 function App() {
   return (
     <div className='App'>
       <Navbar/>
-      <Landing/>
+      <LandingPage/>
     </div>
   );
 }
