@@ -1,8 +1,8 @@
 import LandingPage from "./LandingPage";
-import  Navbar from "./Navbar";
+import "./index.css";
+import Navbar from "./Navbar";
 
-
-function App() {
+function App(){
   return (
     <div className='App'>
       <Navbar/>
@@ -10,5 +10,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
