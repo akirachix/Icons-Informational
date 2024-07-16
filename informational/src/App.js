@@ -1,17 +1,15 @@
-import Landing from "./Landing-page";
+import LandingPage from "./LandingPage";
 import AboutUs from "./Aboutus.js";
 import "./index.css";
-import { Navbar } from "./Navbar";
+import Navbar from "./Navbar";
 
-
-function App() {
+function App(){
   return (
     <div className='App'>
       <Navbar/>
-      <Landing/>
+      <LandingPage/>
       <AboutUs/>
     </div>
   );
 }
-
 export default App;
