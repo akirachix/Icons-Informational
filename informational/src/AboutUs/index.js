@@ -1,16 +1,16 @@
-import './index.css';
+import './index.css'
 
 
 const AboutUs =()=>{
     return(
 
         
-        <div className='aboutus-sections' id='aboutUs'>
+        <div className='aboutus-sections' id='aboutpage'>
 <h1 className='about-us'>About Us</h1>
             <div className='aboutus-section'>
             
             <div className='mission'>
-                <img src='/Images/mission.png' id='mission-icons' />
+                <img src='/Images/mission.png' id='mission-icons'alt='mission' />
                 <h2  className='heading-mission-mission'>Our Mission</h2>
                 <p id="content-mission"> 
                     Through EduKeri, our mission is to transform the 
@@ -22,7 +22,7 @@ const AboutUs =()=>{
 
 
             <div className='values'>
-                <img src='Images/values.png' id='values-icons'/>
+                <img src='Images/values.png' id='values-icons' alt='values'/>
                 <h2 className='heading-mission-values'>Our Values</h2>
                 <p id="content-values">
                     Integrity guides our actions, ensuring that our efforts 
@@ -34,7 +34,7 @@ const AboutUs =()=>{
 
 
             <div className='vision'>
-                <img src='/Images/vision.png' id='vision-icons'/>
+                <img src='/Images/vision.png' id='vision-icons' alt='vision'/>
                 <h2 className='heading-mission'>Our Vision</h2>
                 <p id="content">Our vision is to create a digitally literate teaching 
                     force in rural Kenya, transforming classrooms into 

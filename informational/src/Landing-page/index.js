@@ -1,6 +1,6 @@
 import './index.css'
 
-const Landing = () =>{
+const LandingPage = () =>{
     return(
         <div className='landing'>
             <div className='overlay'>
@@ -14,4 +14,4 @@ const Landing = () =>{
         </div>
     );
 }
-export default Landing;
+export default LandingPage;
