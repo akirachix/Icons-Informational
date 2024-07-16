@@ -9,6 +9,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-logo">
@@ -16,11 +20,11 @@ const Navbar = () => {
       </div>
       <div className='Links'>
         <ul className={`links ${isOpen ? 'show' : ''}`}>
-          <li>Home</li>
-          <li>About us</li>
-          <li>Our Services</li>
-          <li>Team</li>
-          <li>Contacts</li>
+          <li><a href="#" onClick={handleLinkClick}>Home</a></li>
+          <li><a href='#aboutpage' onClick={handleLinkClick}>About us</a></li>
+          <li><a href="#" onClick={handleLinkClick}>Our Services</a></li>
+          <li><a href="#" onClick={handleLinkClick}>Team</a></li>
+          <li><a href="#" onClick={handleLinkClick}>Contacts</a></li>
         </ul>
       </div>
       <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
@@ -28,11 +32,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-
-
-  
 }
+
 export default Navbar;
-
-
-

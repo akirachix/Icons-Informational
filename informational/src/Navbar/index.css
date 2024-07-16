@@ -36,6 +36,11 @@ body{
     display: flex;
     justify-content: space-between;
     list-style: none; 
+    text-decoration: none;
+  }
+  .links a{
+    text-decoration: none;
+    color: black;
   }
   .Links{
     width: 60%;
@@ -76,6 +81,9 @@ body{
       align-items: center;
       font-size: 20px;
     }
+    .links a{
+      color: white;
+    }
   
     .navbar ul.show {
       display: flex;
@@ -83,7 +91,7 @@ body{
     }
   
     .navbar ul li {
-      padding: 3.5rem;
+      padding: 1rem;
       border-bottom: 1px solid #444;
       text-align: center;
     }
@@ -92,6 +100,7 @@ body{
   @media (max-width: 900px) {
     .links {
       display: none;
+      text-decoration: none;
     }
   }
   @media screen and (min-width: 1021px) and (max-width:1050px){
@@ -136,8 +145,7 @@ body{
       }
       .Links{
         width: 70%;
-        margin-left: 2%;
-    
+        margin-left: 2%;    
     
       }
       ul{
@@ -195,10 +203,12 @@ body{
         display: flex;
         justify-content: space-between;
         list-style: none; 
+        text-decoration: none;
       }
       .Links{
         width: 70%;
         margin-left: 1%;
+        text-decoration: none;
     
     
       }
@@ -247,10 +257,12 @@ body{
         display: flex;
         justify-content: space-between;
         list-style: none; 
+        text-decoration: none;
       }
       .Links{
         width: 70%;
         margin-left: 2%;
+        text-decoration: none;
     
     
       }

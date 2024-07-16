@@ -5,7 +5,7 @@ const AboutUs =()=>{
     return(
 
         
-        <div className='aboutus-sections'>
+        <div className='aboutus-sections' id='aboutpage'>
 <h1 className='about-us'>About Us</h1>
             <div className='aboutus-section'>
             
