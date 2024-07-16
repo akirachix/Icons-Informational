@@ -4,7 +4,7 @@ body{
 .navbar-logo img{
     height: 50px;
     width: 50px;
-    margin-left: 75%;
+    margin-left: 30px;
 }
 .navbar {
     display: flex;
@@ -49,6 +49,11 @@ body{
   }
   
   @media (max-width: 900px) {
+    .navbar-logo img{
+      height: 40px;
+      width: 40px;
+      margin-left: 5px;
+    }
     .menu-icon {
       display: block;
     }
@@ -88,4 +93,118 @@ body{
     .links {
       display: none;
     }
+  }
+  @media screen and (min-width: 1021px) and (max-width:1050px){
+    body{
+      font-family:'Old Standard TT';
+    }
+    .navbar-logo img{
+        height: 50px;
+        width: 50px;
+        margin-left: 69%;
+    }
+    .navbar {
+        display: flex;
+        gap: 20%;
+        align-items: center;
+        background-color: white;
+        color: black;
+        height: 60px;
+        font-size: 20px;
+        padding: 12px 12px;
+    
+      }
+      
+      .menu-icon {
+        display: none;
+        font-size: 1.8rem;
+        cursor: pointer;
+        z-index: 1002;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        transition: color 0.3s ease-in-out;
+      }
+      
+      .menu-icon.open {
+        color: white;
+      }
+      .links {
+        display: flex;
+        justify-content: space-between;
+        list-style: none; 
+      }
+      .Links{
+        width: 70%;
+        margin-left: 2%;
+    
+    
+      }
+      ul{
+        display: flex;
+        gap: 10%;
+      }
+
+  }
+  @media screen and (min-width: 700px) and (max-width:860px){
+    .navbar-logo img{
+      height: 50px;
+      width: 50px;
+      margin-left: 42%;
+  }
+  .menu-icon{
+    margin-right: 2.5%;
+  }
+  }
+  @media screen and (min-width : 900px) and (max-width : 915px){
+    body{
+      font-family:'Old Standard TT';
+    }
+    .navbar-logo img{
+        height: 50px;
+        width: 50px;
+        margin-left: 69%;
+    }
+    .navbar {
+        display: flex;
+        gap: 20%;
+        align-items: center;
+        background-color: white;
+        color: black;
+        height: 60px;
+        font-size: 20px;
+        padding: 12px 12px;
+    
+      }
+      
+      .menu-icon {
+        display: none;
+        font-size: 1.8rem;
+        cursor: pointer;
+        z-index: 1002;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        transition: color 0.3s ease-in-out;
+      }
+      
+      .menu-icon.open {
+        color: white;
+      }
+      .links {
+        display: flex;
+        justify-content: space-between;
+        list-style: none; 
+      }
+      .Links{
+        width: 70%;
+        margin-left: 1%;
+    
+    
+      }
+      ul{
+        display: flex;
+        gap: 10%;
+      }
+
   }
