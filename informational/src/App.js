@@ -1,16 +1,17 @@
-import Landing from "./Landing-page";
-import AboutUs from "./AboutUs";
+
+import LandingPage from "./LandingPage";
+import "./index.css";
 import Navbar from "./Navbar";
+import AboutUs from "./AboutUs";
 
 
-function App() {
+function App(){
   return (
     <div className='App'>
       <Navbar/>
-      <Landing/>  
+      <LandingPage/>
       <AboutUs/>
     </div>
   );
 }
-
 export default App;

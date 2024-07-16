@@ -21,6 +21,7 @@ const AboutUs =()=>{
             </div>
 
 
+
             <div className='values'>
                 <img src='Images/values.png' id='values-icons' alt='values'/>
                 <h2 className='heading-mission-values'>Our Values</h2>
@@ -34,6 +35,7 @@ const AboutUs =()=>{
 
 
             <div className='vision'>
+
                 <img src='/Images/vision.png' id='vision-icons' alt='vision'/>
                 <h2 className='heading-mission'>Our Vision</h2>
                 <p id="content">Our vision is to create a digitally literate teaching 
