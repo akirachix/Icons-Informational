@@ -4,7 +4,7 @@ body{
 .landing{
     position: relative;
     background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Documents/Informational-dev/Icons-Informational/informational/public/Images/man.jpeg");
-    height: 820px;
+    height: 870px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -562,4 +562,30 @@ body{
     }  
 
 
+
+
+
+
+    
+
+
 }
+
+
+@media only screen and (min-width: 1281px) {
+    .landing{
+        position: relative;
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Documents/Informational-dev/Icons-Informational/informational/public/Images/man.jpeg");
+        height: 870px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 20px;
+        width: 1980px;
+        margin: 0 auto;
+    }
+ 
+}    

@@ -92,6 +92,8 @@ body{
         display: none;
         text-decoration: none;
       }
+
+      
     }
     @media screen and (min-width: 1021px) and (max-width:1050px){
       body{
@@ -111,6 +113,7 @@ body{
           height: 60px;
           font-size: 20px;
           padding: 12px 12px;
+          margin-right: 30%;
         }
         .menu-icon {
           display: none;
@@ -132,7 +135,7 @@ body{
         }
         .Links{
           width: 70%;
-          margin-left: 2%;
+          margin-left: 45%;
         }
         ul{
           display: flex;
