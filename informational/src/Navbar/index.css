@@ -248,3 +248,57 @@ body{
           gap: 10%;
         }
       }
+
+
+      @media screen and (width:1024px){
+        .navbar {
+          display: flex;
+          gap: 0%;
+          /* align-items: center; */
+          background-color: white;
+          color: black;
+          height: 60px;
+          font-size: 20px;
+          padding: 12px 12px;
+          margin-right: 50%;
+          
+        }
+
+        .menu-icon {
+          display: none;
+          font-size: 1.8rem;
+          cursor: pointer;
+          z-index: 1002;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          transition: color 0.3s ease-in-out;
+        }
+
+        /* .links {
+          display: flex;
+          gap: 70px;
+          list-style: none;
+          text-decoration: none;
+          margin-left: 0%;
+          padding-top: 0%;
+        } */
+
+
+
+        .links {
+          display: inline-flex;
+          gap: 78px;
+          align-items: center;
+          list-style: none;
+          text-decoration: none;
+          margin-left: 0;
+          padding-top: 10px;
+        }
+
+
+        .links a{
+          white-space: nowrap;
+        }
+
+      }
