@@ -1,0 +1,23 @@
+.calltoaction{
+    width: 90%;
+    height: 90%;
+}
+.text{
+    margin-top: 10%;
+}
+@media screen and (min-width:280px) and (max-width:480px){
+    .calltoaction{
+        width: 90%;
+        height: 90%;
+    }
+    .text{
+        margin-top: 0%;
+    } 
+    .join{
+        margin-top: -3%;
+        
+    }
+}
+
+
+

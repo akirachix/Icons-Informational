@@ -1,3 +1,20 @@
+
+import CallToAction from "./CallToAction";
+import Footer from "./Footer";
+import "./index.css"
+import "./index.css"
+const App = ()=>{
+  return(
+    <div>
+      
+      <CallToAction/>
+      <Footer/>
+  
+
+    </div>
+
+  )
+
 import LandingPage from "./LandingPage";
 import AboutUs from "./Aboutus.js";
 import "./index.css";
@@ -11,5 +28,7 @@ function App(){
       <AboutUs/>
     </div>
   );
+
 }
 export default App;
+
