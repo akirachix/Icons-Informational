@@ -1,4 +1,4 @@
-import './index.css';
+import './index.css'
 
 
 const AboutUs =()=>{
@@ -21,7 +21,8 @@ const AboutUs =()=>{
             </div>
 
 
-            <div className='mission'>
+
+            <div className='values'>
                 <img src='Images/values.png' id='values-icons' alt='values'/>
                 <h2 className='heading-mission-values'>Our Values</h2>
                 <p id="content-values">
@@ -33,7 +34,8 @@ const AboutUs =()=>{
             </div>
 
 
-            <div className='mission'>
+            <div className='vision'>
+
                 <img src='/Images/vision.png' id='vision-icons' alt='vision'/>
                 <h2 className='heading-mission'>Our Vision</h2>
                 <p id="content">Our vision is to create a digitally literate teaching 

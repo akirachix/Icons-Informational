@@ -1,7 +1,9 @@
+
 import LandingPage from "./LandingPage";
-import AboutUs from "./Aboutus.js";
 import "./index.css";
 import Navbar from "./Navbar";
+import AboutUs from "./AboutUs";
+
 
 function App(){
   return (
