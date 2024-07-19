@@ -103,7 +103,7 @@ margin-top: 2%;
     .computer{
       width: 220px;
       height: 220px;
-      margin-left: 20%;
+      margin-left: 26%;
       margin-top: 18%;
     }
     .join{
@@ -113,7 +113,7 @@ margin-top: 2%;
     
     .text{
         margin-top: 14%;
-        margin-left: 20%;
+        margin-left: 25%;
      }
     .contains{
         flex-direction: column;
@@ -132,14 +132,14 @@ margin-top: 2%;
         margin-left: -6%;
     }
     .hr{
-    width: 260px;
-    padding-left: 2%;
-    margin-top: 4%;
+        width: 260px;
+        padding-left: 2%;
+        margin-top: 4%;
     
     
     }
     .contact{
-        margin-left: 22%;
+        margin-left: 28%;
         margin-top: -6%;
     
     }
@@ -156,9 +156,7 @@ margin-top: 2%;
     
     .Terms{
         gap: 100px;
-        margin-left: 18%;
-        
-    
+        margin-left: 24%;
     }
     .Term{
         font-size:20px;
@@ -169,7 +167,7 @@ margin-top: 2%;
         margin-top: 9%;
      }
     .social{
-        margin-left: 21%;
+        margin-left: 26%;
         
     
     }
@@ -185,7 +183,7 @@ margin-top: 2%;
         margin-top: 0%;
     }
     .digit{
-        margin-left: -3%;
+        margin-left: -5%;
     }
 
   }
@@ -398,7 +396,7 @@ margin-top: 2%;
       margin-left: 26%;
     }
     .join{
-        font-size: 33px; 
+        font-size: 30px; 
     }
     
 
