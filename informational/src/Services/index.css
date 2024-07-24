@@ -24,14 +24,14 @@ padding: 12px;
 h1{
     text-align: center;
 }
-.text ul{
- text-align: start;
+.text li{
+ text-align: center;
  margin: 15px;
 
 }
-.text-container ul{
+.text-container li{
     margin: 15px;
-    text-align: start;
+    text-align: center;
 
 }
 .paths-container{
@@ -413,13 +413,13 @@ margin-left: -4%;
     h1{
         text-align: center;
     }
-    .text ul{
+    .text li{
      text-align: start;
      margin: 15px;
     
     
     }
-    .text-container ul{
+    .text-container li{
         margin: 15px;
         text-align: start;
     
@@ -518,13 +518,13 @@ margin-left: -4%;
     h1{
         text-align: center;
     }
-    .text ul{
+    .text li{
      text-align: start;
      margin: 15px;
     
     
     }
-    .text-container ul{
+    .text-container li{
         margin: 15px;
         text-align: start;
     
@@ -621,13 +621,13 @@ margin-left: -4%;
     h1{
         text-align: center;
     }
-    .text ul{
+    .text li{
      text-align: start;
      margin: 15px;
     
     
     }
-    .text-container ul{
+    .text-container li{
         margin: 15px;
         text-align: start;
     
@@ -731,13 +731,13 @@ margin-left: -4%;
     h1{
         text-align: center;
     }
-    .text ul{
+    .text li{
      text-align: start;
      margin: 15px;
     
     
     }
-    .text-container ul{
+    .text-container li{
         margin: 15px;
         text-align: start;
     

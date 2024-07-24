@@ -1,8 +1,8 @@
-
 import LandingPage from "./LandingPage";
 import "./index.css";
 import Navbar from "./Navbar";
 import AboutUs from "./AboutUs";
+import Services from "./Services";
 
 
 function App(){
