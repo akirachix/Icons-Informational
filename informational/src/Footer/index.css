@@ -446,8 +446,6 @@ margin-top: 2%;
     .terms{
         gap: 10px;
         margin-left: 2%;
-        
-    
     }
     .Term{
         font-size:30px;
@@ -462,7 +460,6 @@ margin-top: 2%;
     }
     .social{
         margin-left: 1%;
-    
     }
     .Social{
         font-size: 30px;
@@ -478,7 +475,6 @@ margin-top: 2%;
         font-size: 20px;
 
     }
-
 }
 @media screen and (min-width:1280px) and (max-width:1800px){
     .calltoaction{
@@ -495,8 +491,6 @@ margin-top: 2%;
     .join{
         font-size: 30px; 
     }
-    
-    
     .text{
         margin-top: 10%;
         margin-left: 4%;
