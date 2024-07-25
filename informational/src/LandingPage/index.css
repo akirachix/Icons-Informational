@@ -3,7 +3,7 @@ body{
 }
 .landing{
     position: relative;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/home/studen/Icons-Informational/informational/public/Images/man.jpeg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/public/Images/man.jpeg");
     
 
     height: 870px;
