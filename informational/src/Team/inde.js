@@ -2,7 +2,7 @@ import './index.css';
 
 const Team = () =>{
     return(
-        <div className='team-details'>
+        <div className='team-details' id='team'>
 
           <h1> Our Team</h1>  
 
