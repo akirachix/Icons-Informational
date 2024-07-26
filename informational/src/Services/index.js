@@ -3,6 +3,7 @@ import './index.css'
 const Services=()=>{
 return(
     <div className="container" id='services'>
+        <h1 className='header'>Our Services</h1>
         <div className="text-container">
        <div className='paths-container'>
         <img src="/Images/community.png" alt="" className='photo'></img>
