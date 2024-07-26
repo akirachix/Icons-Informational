@@ -24,7 +24,7 @@ const Navbar = () => {
           <li><a href='#aboutpage' onClick={handleLinkClick}>About us</a></li>
           <li><a href="#" onClick={handleLinkClick}>Our Services</a></li>
           <li><a href="#" onClick={handleLinkClick}>Team</a></li>
-          <li><a href="#" onClick={handleLinkClick}>Contacts</a></li>
+          <li><a href='#contactpage' onClick={handleLinkClick}>Contacts</a></li>
         </ul>
       </div>
       <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>

@@ -454,9 +454,6 @@ margin-top: 2%;
         
         font-size: 12px;
         margin-top: 1%;
-        
-    
-        
     }
     .social{
         margin-left: 1%;
@@ -481,7 +478,6 @@ margin-top: 2%;
         display: flex;
         margin-top: 4%;
         margin-left: 0%;
-    
     }
     .computer{
       width: 650px;
@@ -505,8 +501,6 @@ margin-top: 2%;
     .photo{
         width: 50px;
         height:50px;
-        
-          
     }
     
     .icons{
@@ -517,29 +511,20 @@ margin-top: 2%;
       width: 700px;
       padding-left: 30%;
       margin-top: 2%;
-    
-    
     }
     .contact{
         margin-left: 5%;
-    
     }
     .contacts{
         font-size: 30px;
     }
-    
-    
     .policy{
          font-size: 20px;
             }
-                
-            
-      .terms{
-                gap: 10px;
-                margin-left: 2%;
-                
-            
-            }
+    .terms{
+         gap: 10px;
+         margin-left: 2%;
+         }
             .Term{
                 font-size:30px;
             }
@@ -547,9 +532,6 @@ margin-top: 2%;
                 
                 font-size: 20px;
                 margin-top: 1%;
-                
-            
-                
             }
             .social{
                 margin-left: 1%;

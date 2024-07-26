@@ -121,9 +121,7 @@ body{
         height: 60px;
         font-size: 20px;
         padding: 12px 12px;
-    
       }
-      
       .menu-icon {
         display: none;
         font-size: 1.8rem;
@@ -134,7 +132,6 @@ body{
         right: 20px;
         transition: color 0.3s ease-in-out;
       }
-      
       .menu-icon.open {
         color: white;
       }
@@ -146,8 +143,7 @@ body{
       .Links{
         width: 70%;
         margin-left: 2%;    
-    
-      }
+    }
       ul{
         display: flex;
         gap: 10%;
