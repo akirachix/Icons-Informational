@@ -15,6 +15,7 @@ const Navbar = () => {
     }
   };
   return (
+    <div className='bar'>
     <nav className="navbar">
       <div className="navbar-logo">
         <img src="/Images/logo.png" alt="Edukeri" />
@@ -25,13 +26,14 @@ const Navbar = () => {
           <li><a href="#aboutpage" onClick={(event) => handleLinkClick(event, 'aboutpage')}>About us</a></li>
           <li><a href="#services" onClick={(event) => handleLinkClick(event, 'services')}>Services</a></li>
           <li><a href="#team" onClick={(event) => handleLinkClick(event, 'team')}>Team</a></li>
-          <li><a href="#contact" onClick={(event) => handleLinkClick(event, 'contact')}>Contacts</a></li>
+          <li><a href="#contactpage" onClick={(event) => handleLinkClick(event, 'contactpage')}>Contacts</a></li>
         </ul>
       </div>
       <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </div>
     </nav>
+    </div>
   );
 }
 export default Navbar

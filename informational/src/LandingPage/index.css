@@ -2,20 +2,18 @@ body{
     font-family:'Old Standard TT';
 }
 .landing{
-    position: relative;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/public/Images/man.jpeg");
-    
-
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/Images/man.jpeg");
     height: 870px;
-    background-size: cover;
+    background-size: cover; 
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     border-radius: 20px;
-    width: 1780px;
+    width: 1760px; 
     margin: 0 auto;
+    
 }
 .overlay{
     background-color: rgba(255,255,255,0.25);
@@ -82,7 +80,7 @@ body{
         justify-content: center;
         position: relative;
         border-radius: 20px;
-        width: 93%;
+        width: 60%;
         margin: 0 auto;
         position: relative;
     }
@@ -151,7 +149,7 @@ body{
         justify-content: center;
         position: relative;
         border-radius: 20px;
-        width: 93%px;
+        width: 60%px;
         margin: 0 auto;
         position: relative;
     }
@@ -220,7 +218,7 @@ body{
         justify-content: center;
         position: relative;
         border-radius: 20px;
-        width: 93%;
+        width: 60%;
         margin: 0 auto;
         position: relative;
     }
@@ -290,7 +288,7 @@ body{
         justify-content: center;
         position: relative;
         border-radius: 20px;
-        width: 93%;
+        width: 60%;
         margin: 0 auto;
         position: relative;
     }
@@ -362,7 +360,7 @@ body{
         justify-content: center;
         position: relative;
         border-radius: 20px;
-        width: 93%;
+        width: 60%;
         margin: 0 auto;
         padding-top: 50px;
         position: relative;
@@ -435,7 +433,7 @@ body{
         justify-content: center;
         position: relative;
         border-radius: 20px;
-        width: 93%;
+        width: 60%;
         margin: 0 auto;
         position: relative ;
     }
@@ -507,7 +505,7 @@ body{
         justify-content: center;
         position: relative;
         border-radius: 20px;
-        width: 93%;
+        width: 60%;
         margin: 0 auto;
         position: relative ;
     }
@@ -586,7 +584,7 @@ body{
         justify-content: center;
         position: relative;
         border-radius: 20px;
-        width: 1980px;
+        width: 1960px;
         margin: 0 auto;
     }
  

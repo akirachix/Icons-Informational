@@ -3,6 +3,9 @@ import "./index.css";
 import Navbar from "./Navbar";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
+import Footer from "./Footer";
+import CallToAction from "./CallToAction";
+
 
 
 function App(){
@@ -12,6 +15,8 @@ function App(){
       <LandingPage/>
       <AboutUs/>
       <Services/>
+      <CallToAction/>
+      <Footer/>
     </div>
   );
 }
