@@ -6,7 +6,7 @@ const Team = () =>{
 
           <h1> Our Team</h1>  
 
-          <section id='sec1'>
+          <section id='team-section1'>
             <div id='mwanasha'>
             <img src='/Images/mwanasha.jpg' className='image' alt='Mwanasha'/>
             <h3 className='h3a'>Ali Mwanasha</h3>
@@ -19,7 +19,7 @@ const Team = () =>{
 
           </section>
 
-          <section id='sec2'>
+          <section id='team-section2'>
             
             <div id='agnes'>
             <img src='/Images/Agnes.jpg' className='image' alt='Agnes'/>

@@ -6,7 +6,7 @@ return(
         <h1 className='header'>Our Services</h1>
         <div className="text-container">
        <div className='paths-container'>
-        <img src="/Images/community.png" alt="" className='photo'></img>
+        <img src="/Images/community.png" alt="Learning Paths" className='photo'></img>
 
         <h2>Structured Learning Paths</h2>
         
@@ -15,27 +15,27 @@ return(
        <li>Clear progression through levels or modules, tailored to individual needs.</li> 
        </div>
           <div className='progress-container'>
-       <img src="/Images/development.png" alt="" className='photo'></img>
+       <img src="/Images/development.png" alt="Progress Tracking" className='photo'></img>
        <h2>Progress Tracking</h2>
             <li>Personalized progress tracker to monitor learning achievements and skill development.</li>
             <li>Visual representation of progress through badges, certificates, or milestones.</li>
 </div>
        <div className="development-container">
-       <img src="/Images/united.png" alt="" className='photo'></img>
+       <img src="/Images/united.png" alt="Opportunities" className='photo'></img>
        <h2>Professional Development Opportunities</h2>
         <li>Workshops, webinars, and training sessions led by experts and experienced educators.</li>
         <li>Continuous learning programs customized for rural Kenyan teachers.</li></div>
     </div>
     <div className="text">
        <div className='community-container' >
-       <img src="/Images/COMMUNITY.png" alt="" className='photo'></img>
+       <img src="/Images/COMMUNITY.png" alt="Community Engagement" className='photo'></img>
        <h2>Community Engagement</h2>
         <li>Discussion forums and online communities for collaboration and knowledge exchange.</li>
         <li>Peer support networks promoting interaction and professional growth. </li>
        </div>
     
  <div className='resource-container'>
-       <img src="/Images/resources.png" alt="" className='photo'></img>
+       <img src="/Images/resources.png" alt="Resource Library" className='photo'></img>
        <h2>Resource Library</h2>
         
        <li>Extensive collection of educational materials, tutorials, and lesson plans.</li> 
@@ -43,7 +43,7 @@ return(
        </div>
 
 <div className="interface-container">
-<img src="/Images/interface.png" alt="" className='photo'></img>
+<img src="/Images/interface.png" alt="Interface" className='photo'></img>
 <h2>User-Friendly Interface</h2>
     <li>Intuitive dashboard layout for easy navigation and accessibility.</li>
     <li>Optimized design for various devices and internet connectivity levels.</li></div>
