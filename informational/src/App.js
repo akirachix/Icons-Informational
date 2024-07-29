@@ -3,6 +3,7 @@ import "./index.css";
 import Navbar from "./Navbar";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
+import Team from "./Team";
 
 
 function App(){
@@ -12,6 +13,7 @@ function App(){
       <LandingPage/>
       <AboutUs/>
       <Services/>
+      <Team/>
     </div>
   );
 }

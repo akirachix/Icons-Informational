@@ -1,0 +1,588 @@
+.team-details{
+    width: 1772px;
+      
+} 
+h1{
+    text-align: center;
+    color:black;
+    padding-bottom: 2%;
+    font-size: 60px;
+    font-family: 'old standard tt';
+    padding-top: 100px;
+
+
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#team-section1{
+    display: flex;
+    padding-left: 28%;
+    gap: 409px;
+    padding-bottom: 3%;
+}
+#team-section2{
+    display: flex;
+   padding-left: 304px;
+    gap: 20%;
+}
+
+.h3a{
+
+    color: rgb(9,9,88);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'old standard tt';
+}
+
+.h3b{
+    color: rgb(9,9,88);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'old standard tt';
+}
+
+.h3c{
+
+    color: rgb(9,9,88);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'old standard tt';
+
+}
+
+.h3d{
+
+    color: rgb(9,9,88);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'old standard tt';
+}
+
+.h3e{
+
+    color: rgb(9,9,88);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'old standard tt';
+
+}
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 340px){
+
+    .team-details{
+        width: 100%;
+        
+        
+          
+    } 
+
+    h1{
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 40px;
+        font-family: 'old standard tt';
+      }
+    
+    .image{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        
+    }
+    
+    #team-section1{
+        
+        flex-direction: column;
+        padding-left: 25%;
+        gap: 8%;
+        padding-bottom: 3%;
+        
+    }
+    #team-section2{
+        display: flex;
+        flex-direction: column;
+       padding-left: 25%;
+        gap: 8%;
+    }
+    
+    .h3a{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        text-align: center;
+        padding-right: 30%;
+
+        
+    }
+
+    .h3b{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        text-align: center;
+        padding-right: 30%;
+
+        
+    }
+
+    .h3c{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        text-align: center;
+        padding-right: 32%;
+
+       
+    }
+
+    .h3d{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        text-align: center;
+        padding-right: 25%; 
+    }
+
+    .h3e{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        text-align: center;
+        padding-right: 30%;
+    }
+    
+
+}
+
+@media screen and (min-width: 341px) and (max-width: 480px){
+
+    .team-details{
+        width: 100%;
+        
+        
+          
+    } 
+
+
+    h1{
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 40px;
+        font-family: 'old standard tt';
+      }
+    
+    .image{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+       
+        
+    }
+    
+    #team-section1{
+        
+        flex-direction: column;
+        padding-left: 29%;
+        gap: 8%;
+        padding-bottom: 3%;
+        
+    }
+    #team-section2{
+        display: flex;
+        flex-direction: column;
+       padding-left: 29%;
+        gap: 8%;
+    }
+    
+    .h3a{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        text-align: center;
+        padding-right: 43%;
+
+        
+    }
+
+    .h3b{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        text-align: center;
+        padding-right: 40%;
+
+        
+    }
+
+    .h3c{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        text-align: center;
+        padding-right: 44%;
+
+       
+    }
+
+    .h3d{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        text-align: center;
+        padding-right: 43%; 
+    }
+
+    .h3e{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        text-align: center;
+        padding-right: 45%;
+    }
+    
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 680px){
+
+    .team-details{
+        width: 100%;  
+    } 
+    h1{
+        text-align: center;
+        font-size: 40px;
+        padding-right: 20px;
+        color: black;
+        padding-bottom: 5%;
+    
+    }
+    
+    .image{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    #team-section1{
+        
+        flex-direction: column;
+        padding-left: 30%;
+        gap: 8%;
+        padding-bottom: 3%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    #team-section2{
+        display: flex;
+        flex-direction: column;
+       padding-left: 30%;
+        gap: 8%;
+    }
+    
+    .h3a{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        padding-right: 45%;
+        text-align: center;
+    }
+
+    .h3b{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        padding-right: 45%;
+        text-align: center;
+    }
+
+    .h3c{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        padding-right: 45%;
+        text-align: center;
+    }
+
+    .h3d{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        padding-right: 45%;
+        text-align: center;
+    }
+
+    .h3e{
+        color: rgb(9,9,88);
+        font-size: 15px;
+        padding-right: 45%;
+        text-align: center;
+    }
+    
+    
+  
+}
+
+@media screen and (min-width: 681px) and (max-width: 880px){
+
+    .team-details{
+        width: 100%;  
+        
+    } 
+  
+    h1 {
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 60px;
+      }
+    
+    .image{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    
+    #team-section1{
+        
+        flex-direction: column;
+        padding-left: 30%;
+        gap: 50px;
+        padding-bottom: 3%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    #team-section2{
+        display: flex;
+        flex-direction: column;
+       padding-left: 30%;
+        gap: 50px;
+    }
+    
+    .h3a{
+        color: rgb(9,9,88);
+        font-size: 25px;
+        padding-right: 55%;
+        text-align: center;
+    }
+
+    .h3b{
+        color: rgb(9,9,88);
+        font-size: 25px;
+        padding-right: 55%;
+        text-align: center;
+    }
+
+    .h3c{
+        color: rgb(9,9,88);
+        font-size: 25px;
+        padding-right: 55%;
+        text-align: center;
+    }
+
+    .h3d{
+        color: rgb(9,9,88);
+        font-size: 25px;
+        padding-right: 55%;
+        text-align: center;
+    }
+
+    .h3e{
+        color: rgb(9,9,88);
+        font-size: 25px;
+        padding-right: 55%;
+        text-align: center;
+    }
+    
+  
+    }
+
+
+@media screen and (min-width: 881px) and (max-width: 1080px){
+
+
+    .team-details{
+        width: 100%;
+        
+    } 
+    h1{
+        text-align: center;
+        color: black;
+        padding-bottom: 5%;
+    
+    }
+    
+    .image{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    #team-section1{
+        display: flex;
+        padding-left: 20.5%;
+        gap: 18%;
+        padding-bottom: 3%;
+    }
+    #team-section2{
+        display: flex;
+       padding-left: 3.5%;
+        gap: 18%;
+        padding-right: 20%;
+    }
+    
+    .h3a{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+
+    .h3b{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+
+    .h3c{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+
+    .h3d{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+
+    .h3e{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1030px){
+
+
+    .team-details{
+        width: 100%;
+        
+    } 
+    h1{
+        text-align: center;
+        color: black;
+        padding-bottom: 5%;
+    
+    }
+    
+    .image{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    #team-section1{
+        display: flex;
+        padding-left: 22.5%;
+        gap: 18%;
+        padding-bottom: 3%;
+    }
+    #team-section2{
+        display: flex;
+       padding-left: 7.2%;
+        gap: 18%;
+        padding-right: 20%;
+    }
+    
+    .h3a{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+
+    .h3b{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+
+    .h3c{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+
+    .h3d{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+
+    .h3e{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1280px){
+
+    .team-details{
+        width: 100%;
+        
+        
+    } 
+    h1{
+        text-align: center;
+        color: black;
+        padding-bottom: 5%;
+    
+    }
+    
+    .image{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    #team-section1{
+        display: flex;
+        padding-left: 27%;
+        gap: 18%;
+        padding-bottom: 3%;
+    }
+    #team-section2{
+        display: flex;
+       padding-left: 10%;
+        gap: 18%;
+        
+    }
+    
+    .h3a{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+
+    .h3b{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    
+    .h3c{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    
+    .h3d{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    
+    .h3e{
+        color: rgb(9,9,88);
+        font-size: 20px;
+        padding-left: 6%;
+    }
+    
+    
+    
+}    
+  
+    

@@ -163,7 +163,7 @@ body{
         text-align: center;
         border-radius: 8px;
         width: 200px;
-        height: 250px;
+        height: 270px;
     }
     .overlay h1{
         margin: 0 0 10px;
@@ -302,7 +302,7 @@ body{
         text-align: center;
         border-radius: 8px;
         width: 400px;
-        height: 270px;
+        height: 290px;
     }
     .overlay h1{
         margin: 0 0 10px;
@@ -375,7 +375,7 @@ body{
         text-align: center;
         border-radius: 8px;
         width: 400px;
-        height: 300px;
+        height: 340px;
     }
     .overlay h1{
         margin: 0 0 10px;
@@ -427,7 +427,7 @@ body{
     }
     .landing{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/public/Images/man.jpeg");
-        height: 450px;
+        height: 500px;
         background-size: cover;
         background-position: center;
         display: flex;
@@ -447,7 +447,7 @@ body{
         text-align: center;
         border-radius: 8px;
         width: 400px;
-        height: 270px;
+        height: 300px;
     }
     .overlay h1{
         margin: 0 0 10px;
@@ -493,13 +493,13 @@ body{
 
 
 }
-@media screen and (min-width: 1051px) and (max-width:1281px){
+@media screen and (min-width: 1051px) and (max-width:1280px){
     body{
         font-family: 'Old Family TT';
     }
     .landing{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/public/Images/man.jpeg");
-        height: 450px;
+        height: 550px;
         background-size: cover;
         background-position: center;
         display: flex;
@@ -519,7 +519,7 @@ body{
         text-align: center;
         border-radius: 8px;
         width: 400px;
-        height: 270px;
+        height: 300px;
     }
     .overlay h1{
         margin: 0 0 10px;
@@ -562,15 +562,7 @@ body{
     .sign-up-button:hover{
         background-color: lightblue;
     }  
-
-
-
-
-
-
     
-
-
 }
 
 
@@ -586,7 +578,7 @@ body{
         justify-content: center;
         position: relative;
         border-radius: 20px;
-        width: 1980px;
+        width: 1780px;
         margin: 0 auto;
     }
  
