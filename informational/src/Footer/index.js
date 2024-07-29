@@ -30,6 +30,7 @@ const Footer = () => {
             <p className='Social'>Social media</p>
             <div className='icons'>
             <div>
+<<<<<<< HEAD
             <img src="/Images/facebook.png" alt="" className='photos'></img>
             </div>
 
@@ -39,6 +40,17 @@ const Footer = () => {
 
             <div>
             <img src="/Images/instagram.png" alt="" className='photos'></img>
+=======
+            <img src="./image/facebook.png" alt="" className='photo'></img>
+            </div>
+
+            <div>
+            <img src="./image/twitter.png" alt="" className='photo'></img>
+            </div>
+
+            <div>
+            <img src="./image/instagram.png" alt="" className='photo'></img>
+>>>>>>> origin/feature/footer
 
             </div>
             </div>

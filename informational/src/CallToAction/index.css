@@ -1,9 +1,14 @@
 .calltoaction{
     width: 90%;
     height: 90%;
+<<<<<<< HEAD
     
 }
 .texts{
+=======
+}
+.text{
+>>>>>>> origin/feature/footer
     margin-top: 10%;
 }
 @media screen and (min-width:280px) and (max-width:480px){
@@ -11,12 +16,25 @@
         width: 90%;
         height: 90%;
     }
+<<<<<<< HEAD
     .texts{
+=======
+    .text{
+>>>>>>> origin/feature/footer
         margin-top: 0%;
     } 
     .join{
         margin-top: -3%;
+<<<<<<< HEAD
         font-family: 'old standard tt';
         
     }
 }
+=======
+        
+    }
+}
+
+
+
+>>>>>>> origin/feature/footer

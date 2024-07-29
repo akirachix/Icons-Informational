@@ -22,11 +22,19 @@ const Navbar = () => {
       </div>
       <div className="Links">
         <ul className={`links ${isOpen ? 'show' : ''}`}>
+<<<<<<< HEAD
           <li><a href="#home" onClick={(event) => handleLinkClick(event, 'home')}>Home</a></li>
           <li><a href="#aboutpage" onClick={(event) => handleLinkClick(event, 'aboutpage')}>About us</a></li>
           <li><a href="#services" onClick={(event) => handleLinkClick(event, 'services')}>Services</a></li>
           <li><a href="#team" onClick={(event) => handleLinkClick(event, 'team')}>Team</a></li>
           <li><a href="#contactpage" onClick={(event) => handleLinkClick(event, 'contactpage')}>Contacts</a></li>
+=======
+          <li><a href="#" onClick={handleLinkClick}>Home</a></li>
+          <li><a href='#aboutpage' onClick={handleLinkClick}>About us</a></li>
+          <li><a href="#" onClick={handleLinkClick}>Our Services</a></li>
+          <li><a href="#" onClick={handleLinkClick}>Team</a></li>
+          <li><a href='#contactpage' onClick={handleLinkClick}>Contacts</a></li>
+>>>>>>> origin/feature/footer
         </ul>
       </div>
       <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
